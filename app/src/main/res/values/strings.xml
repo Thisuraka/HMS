@@ -34,4 +34,10 @@
     <string name="mealsSnackBtn"> Snacks </string>
 
     <!--====================== Breakfast Menu Page =================================-->
+    <string name="bfTitle"> Breakfast Menu - 06.00 A.M to 10.00 A.M </string>
+    <string name="bfDateTimeTxt">Date | Time</string>
+    <string name="bfCol1"> Items </string>
+    <string name="bfCol2"> Prices </string>
+    <string name="bfItems"> Item1 \n\n Item2 \n\n Item3</string>
+
 </resources>
