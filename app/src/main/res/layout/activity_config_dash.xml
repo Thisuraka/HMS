@@ -105,30 +105,46 @@
         android:id="@+id/confDashSw1"
         android:layout_width="128dp"
         android:layout_height="32dp"
+        android:checked="true"
         android:text="@string/confDashSw1"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="353dp"
-        tools:layout_editor_absoluteY="293dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315" />
 
     <Switch
         android:id="@+id/confDashSw2"
         android:layout_width="131dp"
         android:layout_height="37dp"
+        android:checked="true"
         android:text="@string/confDashSw2"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="350dp"
-        tools:layout_editor_absoluteY="351dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.742"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37" />
 
     <Switch
         android:id="@+id/confDashSw3"
         android:layout_width="133dp"
         android:layout_height="34dp"
+        android:checked="true"
+        android:clickable="false"
         android:text="@string/confDashSw3"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="349dp"
-        tools:layout_editor_absoluteY="413dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
