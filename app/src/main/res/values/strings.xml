@@ -38,6 +38,17 @@
     <string name="bfDateTimeTxt">Date | Time</string>
     <string name="bfCol1"> Items </string>
     <string name="bfCol2"> Prices </string>
-    <string name="bfItems"> Item1 \n\n Item2 \n\n Item3</string>
+    <string name="bfItems">
+        Item1 \n\n
+        Item2 \n\n
+        Item3 \n\n
+    </string>
+    <string name="bfCb1"> M_Price </string>
+    <string name="bfCb1b"> L_Price </string>
+    <string name="bfCb2"> M_Price </string>
+    <string name="bfCb2b"> L_Price </string>
+    <string name="bfCb3"> M_Price </string>
+    <string name="bfCb3b"> L_Price </string>
+    <string name="bfBtn"> Done </string>
 
 </resources>

@@ -2,10 +2,10 @@ package com.example.hms;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
-
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
+import android.view.View;
+import android.widget.Button;
 
 public class mealsOptions extends AppCompatActivity {
 
@@ -14,5 +14,13 @@ public class mealsOptions extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meals_options);
 
+        Button btn = (Button)findViewById(R.id.mealsBreakfastBtn);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mealsOptions.this, breakfastMenu.class));
+            }
+        });
     }
 }
