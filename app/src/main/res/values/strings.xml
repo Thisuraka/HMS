@@ -86,4 +86,40 @@
     <string name="dinnerCb3"> M_Price </string>
     <string name="dinnerCb3b"> L_Price </string>
     <string name="dinnerBtn"> Done </string>
+
+    <!--====================== Bar and Bites Menu Page =================================-->
+    <string name="barTitle"> Bar and Bites </string>
+    <string name="barDateTimeTxt"> Date | Time </string>
+    <string name="barCol1"> Items </string>
+    <string name="barCol2"> Prices </string>
+    <string name="barItems">
+        Item1 \n\n
+        Item2 \n\n
+        Item3 \n\n
+    </string>
+    <string name="barCb1"> M_Price </string>
+    <string name="barCb1b"> L_Price </string>
+    <string name="barCb2"> M_Price </string>
+    <string name="barCb2b"> L_Price </string>
+    <string name="barCb3"> M_Price </string>
+    <string name="barCb3b"> L_Price </string>
+    <string name="barBtn"> Done </string>
+
+    <!--====================== Snacks and Tea Menu Page =================================-->
+    <string name="snacksTitle"> Snacks and Tea </string>
+    <string name="snacksDateTimeTxt"> Date | Time </string>
+    <string name="snacksCol1"> Items </string>
+    <string name="snacksCol2"> Prices </string>
+    <string name="snacksItems">
+        Item1 \n\n
+        Item2 \n\n
+        Item3 \n\n
+    </string>
+    <string name="snacksCb1"> M_Price </string>
+    <string name="snacksCb1b"> L_Price </string>
+    <string name="snacksCb2"> M_Price </string>
+    <string name="snacksCb2b"> L_Price </string>
+    <string name="snacksCb3"> M_Price </string>
+    <string name="snacksCb3b"> L_Price </string>
+    <string name="snacksBtn"> Done </string>
 </resources>

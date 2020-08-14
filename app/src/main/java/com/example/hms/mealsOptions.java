@@ -40,5 +40,16 @@ public class mealsOptions extends AppCompatActivity {
                 startActivity(new Intent(mealsOptions.this, dinnerMenu.class));
             }
         });
+
+        Button btn4 = (Button)findViewById(R.id.mealsBarBtn);
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mealsOptions.this, barMenu.class));
+            }
+        });
+
+
     }
 }
