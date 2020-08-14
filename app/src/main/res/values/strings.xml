@@ -7,9 +7,9 @@
         all facilities available in the hotel including meals,
         accommodation and other facilities. </string>
     <string name="welcomeMsg">Go ahead and login and enjoy your stay !</string>
-    <string name="txtBxNic"> NIC... </string>
-    <string name="txtBxCode"> Code... </string>
-    <string name="txtBxCode2"> Confirm Code... </string>
+    <string name="txtBxNic"> NIC ... </string>
+    <string name="txtBxCode"> Code ... </string>
+    <string name="txtBxCode2"> Confirm Code ... </string>
     <string name="loginBtn">Login</string>
 
     <!--====================== Main Page ========================================-->
@@ -122,4 +122,23 @@
     <string name="snacksCb3"> M_Price </string>
     <string name="snacksCb3b"> L_Price </string>
     <string name="snacksBtn"> Done </string>
+
+    <!--========================== Configuration Dashboard ==============================-->
+    <string name="confDaTxt">The amount will be added to your final bill when checking out.
+        No additional charges are involved </string>
+    <string name="confDaCol1"> Items </string>
+    <string name="confDaCol2"> Prices </string>
+    <string name="confDaItems">
+        Item1 \n\n
+        Item2 \n\n
+        Item3 \n\n
+    </string>
+    <string name="confDashSw1"> #### </string>
+    <string name="confDashSw2"> #### </string>
+    <string name="confDashSw3"> #### </string>
+    <string name="confDashBtn1"> Update </string>
+    <string name="confDashBtn2"> Confirm </string>
+
+
+
 </resources>

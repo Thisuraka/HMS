@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".configDash">
+
+    <Button
+        android:id="@+id/confDashBtn2"
+        android:layout_width="87dp"
+        android:layout_height="33dp"
+        android:background="@drawable/button"
+        android:text="@string/confDashBtn2"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.902" />
+
+    <Button
+        android:id="@+id/confDashBtn1"
+        android:layout_width="87dp"
+        android:layout_height="33dp"
+        android:background="@drawable/button"
+        android:text="@string/confDashBtn1"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.902" />
+
+    <TextView
+        android:id="@+id/confDaCol2"
+        android:layout_width="81dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/confDaCol2"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <TextView
+        android:id="@+id/confDaItems"
+        android:layout_width="144dp"
+        android:layout_height="152dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/confDaItems"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <TextView
+        android:id="@+id/confDaCol1"
+        android:layout_width="102dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/confDaCol1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="463dp"
+        android:layout_height="79dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/confDaTxt"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <Switch
+        android:id="@+id/confDashSw1"
+        android:layout_width="128dp"
+        android:layout_height="32dp"
+        android:text="@string/confDashSw1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="353dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <Switch
+        android:id="@+id/confDashSw2"
+        android:layout_width="131dp"
+        android:layout_height="37dp"
+        android:text="@string/confDashSw2"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <Switch
+        android:id="@+id/confDashSw3"
+        android:layout_width="133dp"
+        android:layout_height="34dp"
+        android:text="@string/confDashSw3"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="413dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
