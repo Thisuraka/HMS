@@ -70,7 +70,7 @@
     <string name="lunchBtn"> Done </string>
 
     <!--====================== Dinner Menu Page =================================-->
-    <string name="dinnerTitle"> Lunch Menu - 12.00 P.M to 03.00 P.M </string>
+    <string name="dinnerTitle"> Dinner Menu - 08.00 P.M to 11.00 P.M </string>
     <string name="dinnerDateTimeTxt"> Date | Time </string>
     <string name="dinnerCol1"> Items </string>
     <string name="dinnerCol2"> Prices </string>
