@@ -139,6 +139,39 @@
     <string name="confDashBtn1"> Update </string>
     <string name="confDashBtn2"> Confirm </string>
 
+    <!--========================== Order Success ==============================-->
+    <string name="sucBtn"> Done </string>
+    <string name="sucMsg">
+        Order confirmed \n\n
+        Head to the dining area during the hours and enjoy your meals. \n\n
+        Drinks will be available in the bar \n\n
+        Snacks will be sent to the room \n\n
+    </string>
 
+    <!--========================= Update Page =================================-->
+    <string name="umCol1"> Items </string>
+    <string name="umCol2"> Prices </string>
+    <string name="umItems">
+        Item1 \n\n
+        Item2 \n\n
+        Item3 \n\n
+    </string>
+    <string name="umCb1"> M_Price </string>
+    <string name="umCb1b"> L_Price </string>
+    <string name="umCb2"> M_Price </string>
+    <string name="umCb2b"> L_Price </string>
+    <string name="umCb3"> M_Price </string>
+    <string name="umCb3b"> L_Price </string>
+    <string name="umAdd"> Add </string>
+    <string name="umBtn"> Done </string>
+
+    <!--========================= Add Item Page =================================-->
+    <string name="aiTxtBox"> Search Here ...  </string>
+    <string name="aiItems">
+        Item1 \n\n
+    </string>
+    <string name="aiCb1"> M_Price </string>
+    <string name="aiCb1b"> L_Price </string>
+    <string name="aiBtn"> Done </string>
 
 </resources>

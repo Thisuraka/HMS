@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".configDash"></activity>
+        <activity android:name=".addItem"></activity>
+        <activity android:name=".updateMenu" />
+        <activity android:name=".orderSuccess" />
+        <activity android:name=".configDash" />
         <activity android:name=".snacksMenu" />
         <activity android:name=".barMenu" />
         <activity android:name=".dinnerMenu" />
