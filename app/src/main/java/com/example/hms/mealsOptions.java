@@ -22,5 +22,14 @@ public class mealsOptions extends AppCompatActivity {
                 startActivity(new Intent(mealsOptions.this, breakfastMenu.class));
             }
         });
+
+        Button btn2 = (Button)findViewById(R.id.mealsLunchBtn);
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mealsOptions.this, lunchMenu.class));
+            }
+        });
     }
 }
