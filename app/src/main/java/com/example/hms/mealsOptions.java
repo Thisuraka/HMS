@@ -50,6 +50,15 @@ public class mealsOptions extends AppCompatActivity {
             }
         });
 
+        Button btn5 = (Button)findViewById(R.id.mealsSnackBtn);
+
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(mealsOptions.this, snacksMenu.class));
+            }
+        });
+
 
     }
 }
