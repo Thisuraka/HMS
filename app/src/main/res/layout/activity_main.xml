@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeTitle"
+        android:layout_width="345dp"
+        android:layout_height="115dp"
+        android:fontFamily="@font/kaushan_script"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <TextView
+        android:id="@+id/welcomeDesc"
+        android:layout_width="509dp"
+        android:layout_height="96dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/welcomeDesc"
+        android:textAlignment="center"
+        android:textColor="#D5D5D5"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/welcomeMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeTitle" />
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="426dp"
+        android:layout_height="109dp"
+        android:fontFamily="@font/leckerli_one"
+        android:text="@string/welcomeMsg"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeTitle"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:id="@+id/txtBxWelcomeNic"
+        android:layout_width="407dp"
+        android:layout_height="56dp"
+        android:padding="10dp"
+        android:text="@string/txtBxNic"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessage"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:id="@+id/txtBxWelcomeCode"
+        android:layout_width="407dp"
+        android:layout_height="56dp"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBxWelcomeNic"
+        app:layout_constraintVertical_bias="0.084"
+        tools:text="@string/txtBxCode" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:id="@+id/txtBxWelcomeCode2"
+        android:layout_width="407dp"
+        android:layout_height="56dp"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBxWelcomeCode"
+        app:layout_constraintVertical_bias="0.121"
+        tools:text="@string/txtBxCode2" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="71dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/loginBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBxWelcomeCode2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

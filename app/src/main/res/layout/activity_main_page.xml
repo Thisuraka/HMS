@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".mainPage">
+
+    <ImageView
+        android:id="@+id/otherfacImg"
+        android:layout_width="179dp"
+        android:layout_height="143dp"
+        android:contentDescription="@string/mainPageFacImg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188"
+        app:srcCompat="@drawable/fac" />
+
+    <ImageView
+        android:id="@+id/mealsImg"
+        android:layout_width="183dp"
+        android:layout_height="149dp"
+        android:contentDescription="@string/mainPageMealImg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575"
+        app:srcCompat="@drawable/meals" />
+
+    <ImageView
+        android:id="@+id/accomImg"
+        android:layout_width="179dp"
+        android:layout_height="143dp"
+        android:contentDescription="@string/mainPageAccomImg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188"
+        app:srcCompat="@drawable/accommodation" />
+
+    <TextView
+        android:id="@+id/mainPageAccomTxt"
+        android:layout_width="109dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/mainPageAccomTxt"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accomImg"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <TextView
+        android:id="@+id/mainPageFacTxt"
+        android:layout_width="96dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/mainPageFacTxt"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otherfacImg"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="93dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="313dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/mainPageMealTxt"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mealsImg"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

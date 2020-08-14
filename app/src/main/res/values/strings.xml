@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">HMS</string>
+
+    <!--====================== Welcome Page ========================================-->
+    <string name="welcome">Welcome to IC hotels Gateway</string>
+    <string name="welcomeDesc">The tablet will be the access point to
+        all facilities available in the hotel including meals,
+        accommodation and other facilities. </string>
+    <string name="welcomeMsg">Go ahead and login and enjoy your stay !</string>
+    <string name="txtBxNic"> NIC... </string>
+    <string name="txtBxCode"> Code... </string>
+    <string name="txtBxCode2"> Confirm Code... </string>
+    <string name="loginBtn">Login</string>
+
+    <!--====================== Main Page ========================================-->
+    <string name="mainPageAccomTxt">Accommodation</string>
+    <string name="mainPageFacTxt">Other Facilities</string>
+    <string name="mainPageMealTxt">Meals and Bar</string>
+    <string name="mainPageAccomImg">Accommodation</string>
+    <string name="mainPageFacImg">Other Facilities</string>
+    <string name="mainPageMealImg">Meals and Bar</string>
+
+    <!--====================== Meals Options Page =================================-->
+    <string name="mealsDateTimeTxt">Date | Time</string>
+    <string name="mealsBreakfastTxt"> Breakfast Menu - 06.00 A.M to 10.00 A.M </string>
+    <string name="mealsBreakfastBtn"> Breakfast </string>
+    <string name="mealsLunchTxt"> Lunch Menu - 12.00 P.M to 03.00 P.M </string>
+    <string name="mealsLunchBtn"> Lunch </string>
+    <string name="mealsDinnerTxt"> Dinner Menu - 08.00 P.M to 11.00 P.M </string>
+    <string name="mealsDinnerBtn"> Dinner </string>
+    <string name="mealsBarTxt"> Bar and Bites - 05.00 P.M to 01.00 A.M </string>
+    <string name="mealsBarBtn"> Bar </string>
+    <string name="mealsSnackTxt"> Snacks and Tea </string>
+    <string name="mealsSnackBtn"> Snacks </string>
+
+    <!--====================== Breakfast Menu Page =================================-->
+</resources>
