@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Golf"></activity>
+        <activity android:name=".Hiking"></activity>
+        <activity android:name=".Golf" />
         <activity android:name=".Cycling" />
         <activity android:name=".Gym" />
         <activity android:name=".spaRoom" />

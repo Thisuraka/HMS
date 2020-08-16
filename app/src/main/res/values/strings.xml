@@ -303,4 +303,14 @@
     <string name="gButton3"> Reserve</string>
 
     <string name="gImg">gImg</string>
+
+    <!--========================= Facilities Hiking Page =================================-->
+    <string name="hTxt1">Hiking</string>
+    <string name="hTxt2">(Details)</string>
+    <string name="hTxt3">(Details)</string>
+    <string name="hTxt4">(Details)</string>
+    <string name="hTxt5">(Details)</string>
+
+    <string name="hButton1"> Back </string>
+    <string name="hImg">hImg</string>
 </resources>
