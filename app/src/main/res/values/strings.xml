@@ -173,10 +173,28 @@
     <string name="aiCb1"> M_Price </string>
     <string name="aiCb1b"> L_Price </string>
     <string name="aiBtn"> Done </string>
+
     <!--========================= Facilities Main Page =================================-->
     <string name="fmTxt1">Other Facilities </string>
     <string name="fmTxt2"> Indoor </string>
     <string name="fmTxt3"> Outdoor </string>
     <string name="fmImg1"> Indoor </string>
     <string name="fmImg2"> Outdoor </string>
+
+    <!--========================= Facilities Indoor Page =================================-->
+    <string name="fmIndoorTxt1"> Indoor </string>
+    <string name="fmIndoorTxt2"> Facility </string>
+    <string name="fmIndoorTxt3"> View </string>
+    <string name="fmIndoorTxt4">  Swimming Pool</string>
+    <string name="fmIndoorTxt5"> Video Game Room </string>
+    <string name="fmIndoorTxt6"> Game Room </string>
+    <string name="fmIndoorTxt7"> Spa </string>
+    <string name="fmIndoorTxt8"> Gym </string>
+
+    <string name="fmButton1"> View </string>
+    <string name="fmButton2"> View </string>
+    <string name="fmButton3"> View </string>
+    <string name="fmButton4"> View </string>
+    <string name="fmButton5"> View </string>
+
 </resources>
