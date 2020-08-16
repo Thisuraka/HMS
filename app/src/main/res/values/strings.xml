@@ -290,4 +290,17 @@
     <string name="cycButton3"> Reserve</string>
 
     <string name="cycImg">cycImg</string>
+
+    <!--========================= Facilities Cycling Page =================================-->
+    <string name="gTxt1">Golf</string>
+    <string name="gTxt2">(Details)</string>
+    <string name="gTxt3">(Details)</string>
+    <string name="gTxt4">(Details)</string>
+    <string name="gTxt5">(Details)</string>
+
+    <string name="gButton1"> Back </string>
+    <string name="gButton2"> Cancel</string>
+    <string name="gButton3"> Reserve</string>
+
+    <string name="gImg">gImg</string>
 </resources>
