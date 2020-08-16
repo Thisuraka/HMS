@@ -252,4 +252,21 @@
     <string name="grButton3"> Reserve</string>
     <string name="grButton4"> Reserve</string>
     <string name="grButton5"> Reserve</string>
+
+    <!--========================= Facilities Spa Room Page =================================-->
+    <string name="spaTxt1">Spa Room</string>
+    <string name="spaTxt2">Time</string>
+    <string name="spaTxt3">(Details)</string>
+    <string name="spaTxt4">(Details)</string>
+    <string name="spaTxt5">(Details)</string>
+    <string name="spaTxt6">(Details)</string>
+
+    <string name="spaImg">Spa</string>
+
+    <string name="spaButton1"> Back </string>
+    <string name="spaButton2"> Cancel</string>
+    <string name="spaButton3"> Reserve</string>
+
+    <!--========================= Facilities Gym Page =================================-->
+
 </resources>
