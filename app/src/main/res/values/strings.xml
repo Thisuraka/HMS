@@ -326,4 +326,9 @@
 
     <string name="pgImg">pgImg</string>
 
+    <!--========================= Facilities Success Page =================================-->
+    <string name="successTxt1">Reserved</string>
+    <string name="successTxt2">Show QR code below at access point</string>
+
+    <string name="scImg">scImg</string>
 </resources>
