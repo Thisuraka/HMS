@@ -197,4 +197,33 @@
     <string name="fmButton4"> View </string>
     <string name="fmButton5"> View </string>
 
+    <!--========================= Facilities Outdoor Page =================================-->
+    <string name="fmOutdoorTxt1"> Outdoor </string>
+    <string name="fmOutdoorTxt2"> Facility </string>
+    <string name="fmOutdoorTxt3"> View </string>
+    <string name="fmOutdoorTxt4"> Cycling </string>
+    <string name="fmOutdoorTxt5"> Golf </string>
+    <string name="fmOutdoorTxt6"> Hiking </string>
+    <string name="fmOutdoorTxt7"> Playground </string>
+
+    <string name="fmButtonOu1"> View </string>
+    <string name="fmButtonOu2"> View </string>
+    <string name="fmButtonOu3"> View </string>
+    <string name="fmButtonOu4"> View </string>
+
+    <!--========================= Facilities Swimming Pool Page =================================-->
+    <string name="swimmingPoolTxt1">Swimming Pool</string>
+    <string name="swimmingPoolTxt2">Quantity</string>
+    <string name="swimmingPoolTxt3">Size</string>
+    <string name="swimmingPoolTxt4">Time</string>
+    <string name="swimmingPoolTxt5">(Details)</string>
+    <string name="swimmingPoolTxt6">(Details)</string>
+    <string name="swimmingPoolTxt7">(Details)</string>
+
+    <string name="swimmingPoolImg">Swimming Pool</string>
+
+    <string name="spButton1"> Back </string>
+    <string name="spButton2"> Cancel</string>
+    <string name="spButton3"> Reserve</string>
+
 </resources>

@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".fmIndoor"></activity>
+        <activity android:name=".facSwimmingPool"></activity>
+        <activity android:name=".Outdoor" />
+        <activity android:name=".fmIndoor" />
         <activity android:name=".facilityMain" />
         <activity android:name=".addItem" />
         <activity android:name=".updateMenu" />
