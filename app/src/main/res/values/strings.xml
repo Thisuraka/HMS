@@ -226,4 +226,30 @@
     <string name="spButton2"> Cancel</string>
     <string name="spButton3"> Reserve</string>
 
+    <!--========================= Facilities  Video Game Room Page =================================-->
+    <string name="vgRoomTxt1">Video Game Room</string>
+    <string name="vgRoomTxt2">Time</string>
+    <string name="vgRoomTxt3">(Details)</string>
+    <string name="vgRoomTxt4">(Details)</string>
+    <string name="vgRoomTxt5">(Details)</string>
+
+    <string name="vgRoomImg">videoGameRoom</string>
+
+    <string name="vgrButton1"> Back </string>
+    <string name="vgrButton2"> Cancel</string>
+    <string name="vgrButton3"> Reserve</string>
+
+    <!--========================= Facilities Game Room Page =================================-->
+    <string name="gameRoomTxt1">Game Room</string>
+    <string name="gameRoomTxt2">Chess</string>
+    <string name="gameRoomTxt3">Carrom</string>
+    <string name="gameRoomTxt4">Pool</string>
+
+    <string name="gameImg">gameRoom</string>
+
+    <string name="grButton1"> Back </string>
+    <string name="grButton2"> Cancel</string>
+    <string name="grButton3"> Reserve</string>
+    <string name="grButton4"> Reserve</string>
+    <string name="grButton5"> Reserve</string>
 </resources>
