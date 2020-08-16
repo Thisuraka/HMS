@@ -268,5 +268,26 @@
     <string name="spaButton3"> Reserve</string>
 
     <!--========================= Facilities Gym Page =================================-->
+    <string name="gymTxt1">Gym</string>
+    <string name="gymTxt2">(Details)</string>
+    <string name="gymTxt3">(Details)</string>
+    <string name="gymTxt4">(Details)</string>
+    <string name="gymTxt5">(Details)</string>
+    <string name="gymTxt6">(Details)</string>
+    <string name="gymTxt7">(Details)</string>
 
+    <string name="gymButton"> Back </string>
+
+    <!--========================= Facilities Cycling Page =================================-->
+    <string name="cycTxt1">Cycling</string>
+    <string name="cycTxt2">(Details)</string>
+    <string name="cycTxt3">(Details)</string>
+    <string name="cycTxt4">(Details)</string>
+    <string name="cycTxt5">(Details)</string>
+
+    <string name="cycButton1"> Back </string>
+    <string name="cycButton2"> Cancel</string>
+    <string name="cycButton3"> Reserve</string>
+
+    <string name="cycImg">cycImg</string>
 </resources>
