@@ -312,5 +312,18 @@
     <string name="hTxt5">(Details)</string>
 
     <string name="hButton1"> Back </string>
+
     <string name="hImg">hImg</string>
+
+    <!--========================= Facilities Playground Page =================================-->
+    <string name="pgTxt1">Playground</string>
+    <string name="pgTxt2">(Details)</string>
+    <string name="pgTxt3">(Details)</string>
+    <string name="pgTxt4">(Details)</string>
+    <string name="pgTxt5">(Details)</string>
+
+    <string name="pgButton1"> Back </string>
+
+    <string name="pgImg">pgImg</string>
+
 </resources>
