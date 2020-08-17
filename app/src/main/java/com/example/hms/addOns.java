@@ -7,19 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class accomMain extends AppCompatActivity {
+public class addOns extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_accom_main);
+        setContentView(R.layout.activity_addons);
 
-        Button btn = (Button)findViewById(R.id.ambut1);
-
+        Button btn = (Button)findViewById(R.id.amaddonbut10);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(accomMain.this, accomChooseARoom.class));
+                startActivity(new Intent(addOns.this, roomReserved.class));
             }
         });
     }

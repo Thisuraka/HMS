@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".RoomReserve">
+    tools:context=".roomReserve">
 
     <TextView
         android:id="@string/amservetxt1"
@@ -177,7 +177,7 @@
         app:layout_constraintVertical_bias="0.716" />
 
     <Button
-        android:id="@string/amrbut4"
+        android:id="@+id/amrbut4"
         android:layout_width="114dp"
         android:layout_height="37dp"
         android:background="@drawable/button"
@@ -190,7 +190,7 @@
         app:layout_constraintVertical_bias="0.786" />
 
     <Button
-        android:id="@string/amrbut5"
+        android:id="@+id/amrbut5"
         android:layout_width="113dp"
         android:layout_height="39dp"
         android:background="@drawable/button"

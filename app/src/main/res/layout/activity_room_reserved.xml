@@ -6,13 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".RoomReserved">
+    tools:context=".roomReserved">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/background"
-        tools:context=".RoomReserve"
+        tools:context=".roomReserve"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
@@ -258,7 +258,7 @@
             app:layout_constraintVertical_bias="0.808" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/amReservebut4"
             android:layout_width="163dp"
             android:layout_height="28dp"
             android:background="@drawable/button"
@@ -271,7 +271,7 @@
             app:layout_constraintVertical_bias="0.859" />
 
         <Button
-            android:id="@string/amReservebut5"
+            android:id="@+id/amReservebut5"
             android:layout_width="162dp"
             android:layout_height="26dp"
             android:layout_marginTop="16dp"

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".Addons">
+    tools:context=".addOns">
 
     <TextView
         android:id="@+id/textView5"
@@ -276,7 +276,7 @@
         tools:layout_editor_absoluteY="660dp" />
 
     <Button
-        android:id="@string/amaddonbut10"
+        android:id="@+id/amaddonbut10"
         android:layout_width="74dp"
         android:layout_height="38dp"
         android:background="@drawable/button"

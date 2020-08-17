@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RoomReserved"></activity>
-        <activity android:name=".Addons" />
-        <activity android:name=".RoomReserve" />
+        <activity android:name=".roomReserved"></activity>
+        <activity android:name=".addOns" />
+        <activity android:name=".roomReserve" />
         <activity android:name=".accomChooseARoom" />
         <activity android:name=".accomMain" />
         <activity android:name=".facilityMain" />

@@ -76,7 +76,7 @@
         app:layout_constraintVertical_bias="0.295" />
 
     <Button
-        android:id="@string/ambutton3"
+        android:id="@+id/ambutton3"
         android:layout_width="96dp"
         android:layout_height="30dp"
         android:background="@drawable/button"
@@ -103,7 +103,7 @@
         app:layout_constraintVertical_bias="0.438" />
 
     <Button
-        android:id="@string/ambutton4"
+        android:id="@+id/ambutton4"
         android:layout_width="109dp"
         android:layout_height="30dp"
         android:background="@drawable/button"
@@ -156,7 +156,7 @@
         app:layout_constraintVertical_bias="0.738" />
 
     <Button
-        android:id="@string/ambutton5"
+        android:id="@+id/ambutton5"
         android:layout_width="106dp"
         android:layout_height="40dp"
         android:background="@drawable/button"
