@@ -173,5 +173,117 @@
     <string name="aiCb1"> M_Price </string>
     <string name="aiCb1b"> L_Price </string>
     <string name="aiBtn"> Done </string>
+    <!--========================= Facilities Main Page =================================-->
+    <string name="fmTxt1">Other Facilities </string>
+    <string name="fmTxt2"> Indoor </string>
+    <string name="fmTxt3"> Outdoor </string>
+    <string name="fmImg1"> Indoor </string>
+    <string name="fmImg2"> Outdoor </string>
+
+    <!--========================= Accom Main Page =================================-->
+
+    <string name="amTxt1"> Room Features </string>
+    <string name="amTxt2"> Air conditioning </string>
+    <string name="amTxt3"> Private Balcony </string>
+    <string name="amTxt4"> Flat screen TV </string>
+    <string name="amTxt5"> Room types </string>
+    <string name="amTxt6"> Non-smoking rooms </string>
+    <string name="ambut1"> Choose a room </string>
+    <string name="amTxt7"> Good to know </string>
+    <string name="amTxt8"> Hotel view : Mountain view/Great view</string>
+    <string name="amTxt9"> Languages spoken : English/Sinhala </string>
+    <string name="amTxt10"> Time/Date </string>
+    <string name="amTxt11"> Desk </string>
+    <string name="amTxt12"> Room service </string>
+    <string name="amTxt13"> Bath/shower</string>
+
+    <!--========================= Accom Choose a room =================================-->
+
+    <string name="amChoosetxt1"> Time/Date</string>
+    <string name="ambutton2"> Back</string>
+    <string name="amChoosetxt2"> Choose a room</string>
+    <string name="amChoosetxt3"> Breakfast include-Deluxe Double or TwinRoom with Mountain View - Free cancellation</string>
+    <string name="amChoosetxt4"> LKR 22,193.47 </string>
+    <string name="ambutton3"> Select</string>
+    <string name="amChoosetxt5"> Breakfast include -Super Deluxe Double Room with Mountain view</string>
+    <string name="ambutton4"> Select</string>
+    <string name="amChoosetxt6"> LKR 26,198.60</string>
+    <string name="amChoosetxt7"> LKR 30,500.00</string>
+    <string name="amChoosetxt8"> Breakfast include -Deluxe Single Room with awesome Mountain view</string>
+    <string name="ambutton5"> Select</string>
+    <string name="amChoosetxt9"> </string>
+    <string name="amChoosetxt10"> </string>
+    <string name="amChoosetxt11"> </string>
+
+    <!--========================= Accom Reserve =================================-->
+
+    <string name="amservetxt1"> Time/Date</string>
+    <string name="amrbut1">Back</string>
+    <string name="amreservetxt2">Breakfast include-Deluxe Double or TwinRoom with Mountain View </string>
+    <string name="amreservetxt3"> </string>
+    <string name="amrbut2">prev</string>
+    <string name="amrbut3">next</string>
+    <string name="amreservetxt4"> BED :1 extra-large double bed</string>
+    <string name="amreservetxt5"> Air Conditioning</string>
+    <string name="amreservetxt6">Ensuite bathroom </string>
+    <string name="amreservetxt7"> Garden view</string>
+    <string name="amreservetxt8"> Flat-screen TV</string>
+    <string name="amreservetxt9"> Free WiFi</string>
+    <string name="amreservetxt10">Breakfast in the room</string>
+    <string name="amrbut4">Reserve</string>
+    <string name="amrbut5">See Add-ons</string>
+    <string name="amreservetxt11">Room Price : LKR 22,193.47</string>
+
+    <!--========================= Accom Add-ons=================================-->
+    <string name="amaddontxt1"> Time/Date</string>
+    <string name="amaddontxt2">Add-ons</string>
+    <string name="amaddontxt3"> Pillow LKR 100 </string>
+    <string name="amaddontxt4"> Bed Sheet LKR 200</string>
+    <string name="amaddontxt5"> Add-ons LKR 150</string>
+    <string name="amaddontxt6">Add-ons LKR 200</string>
+    <string name="amaddontxt7">Add-ons LKR 100</string>
+    <string name="amaddonbut1">Add</string>
+    <string name="amaddonbut2">Add</string>
+    <string name="amaddonbut3">Add</string>
+    <string name="amaddonbut4">Add</string>
+    <string name="amaddonbut5">Add</string>
+    <string name="amaddontxt9">Your Add-ons</string>
+    <string name="amaddontxt10">Pillow LKR 100</string>
+    <string name="amaddontxt11">Add-ons LKR 300</string>
+    <string name="amaddontxt12">Bed Sheet LKR 200</string>
+    <string name="amaddonbut6">Remove</string>
+    <string name="amaddonbut7">Remove</string>
+    <string name="amaddonbut8">Remove</string>
+    <string name="amaddonbut9">Remove</string>
+    <string name="amaddontxt13">Extra charge : LKR 400.00</string>
+    <string name="amaddonbut10">Done</string>
+
+    <!--========================= Accom RoomReserved=================================-->
+
+    <string name="amReservedtxt1"> Time/Date</string>
+    <string name="amReservebut1">Back</string>
+    <string name="amReservedtxt2">Breakfast include-Deluxe Double or TwinRoom with Mountain View </string>
+    <string name="amReservedtxt3"> </string>
+    <string name="amReservebut2">prev</string>
+    <string name="amReservebut3">next</string>
+    <string name="amReservedtxt8"> Reserved</string>
+    <string name="amReservedtxt10"> Air Conditioning</string>
+    <string name="amReservedtxt11"> Flat-screen TV</string>
+    <string name="amReservedtxt12">Ensuite bathroom</string>
+    <string name="amReservedtxt13"> Free WiFi</string>
+    <string name="amReservedtxt14"> Garden view</string>
+    <string name="amReservedtxt15"> Breakfast in the room</string>
+    <string name="amReservebut5">Cancel Reservation</string>
+    <string name="amReservedtxt5"> Room Price : LKR 22,193.47</string>
+    <string name="amReservedtxt6"> Add-ons price : LKR 400.00</string>
+    <string name="amReservedtxt7">Total : LKR 22,593.00 </string>
+    <string name="amReservedtxt8">Reserved </string>
+    <string name="amReservebut4">Cancel Reservation</string>
+    <string name="amReservebut5">Change Add-ons</string>
+    <string name="amReservebut6">Back to Home</string>
+
+
+
+
 
 </resources>
