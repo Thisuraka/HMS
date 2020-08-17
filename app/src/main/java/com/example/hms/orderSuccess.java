@@ -19,7 +19,7 @@ public class orderSuccess extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(orderSuccess.this, configDash.class));
+                startActivity(new Intent(orderSuccess.this, mainPage.class));
             }
         });
 
