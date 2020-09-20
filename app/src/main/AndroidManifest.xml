@@ -14,7 +14,6 @@
         <activity android:name=".roomReserve" />
         <activity android:name=".accomChooseARoom" />
         <activity android:name=".accomMain" />
-        <activity android:name=".facilityMain" />
         <activity android:name=".addItem" />
         <activity android:name=".updateMenu" />
         <activity android:name=".orderSuccess" />
