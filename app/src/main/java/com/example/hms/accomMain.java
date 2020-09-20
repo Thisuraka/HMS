@@ -7,22 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class orderSuccess extends AppCompatActivity {
+public class accomMain extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_order_success);
+        setContentView(R.layout.activity_accom_main);
 
-        Button btn = (Button)findViewById(R.id.sucBtn);
+        Button btn = (Button)findViewById(R.id.ambut1);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(orderSuccess.this, mainPage.class));
+                startActivity(new Intent(accomMain.this, accomChooseARoom.class));
             }
         });
-
     }
-
 }
