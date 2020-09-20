@@ -27,13 +27,16 @@ public class mainPage extends AppCompatActivity {
                     case R.id.mealsImg:
                         intent.setClass(mainPage.this,mealsOptions.class);
                         break;
+                    case R.id.otherfacImg:
+                        intent.setClass(mainPage.this,facilityMain.class);
+                        break;
                     default:
                         break;
                 }
                 startActivity(intent);
             }
         };
-
+        imageView2.setOnClickListener(listener);
         imageView3.setOnClickListener(listener);
 
     }
