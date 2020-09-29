@@ -9,7 +9,6 @@
     <string name="welcomeMsg">Go ahead and login and enjoy your stay !</string>
     <string name="txtBxNic"> NIC ... </string>
     <string name="txtBxCode"> Code ... </string>
-    <string name="txtBxCode2"> Confirm Code ... </string>
     <string name="loginBtn">Login</string>
 
     <!--====================== Main Page ========================================-->
