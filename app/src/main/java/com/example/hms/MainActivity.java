@@ -60,7 +60,8 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(MainActivity.this, mainPage.class));
                     }
 
-
+     //temporary. remove later
+                    startActivity(new Intent(MainActivity.this, mainPage.class));
                 }
                 catch (NumberFormatException e){
                     Toast.makeText(getApplicationContext(), "Invalid Contact Number", Toast.LENGTH_SHORT).show();

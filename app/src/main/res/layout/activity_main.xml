@@ -4,33 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/bg6"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/welcomeTitle"
-        android:layout_width="345dp"
-        android:layout_height="115dp"
+        android:layout_width="611dp"
+        android:layout_height="160dp"
         android:fontFamily="@font/kaushan_script"
         android:text="@string/welcome"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="36sp"
+        android:textSize="55sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.105" />
+        app:layout_constraintVertical_bias="0.086" />
 
     <TextView
         android:id="@+id/welcomeDesc"
-        android:layout_width="509dp"
-        android:layout_height="96dp"
+        android:layout_width="701dp"
+        android:layout_height="81dp"
         android:fontFamily="@font/lato"
         android:text="@string/welcomeDesc"
         android:textAlignment="center"
-        android:textColor="#D5D5D5"
-        android:textSize="20sp"
+        android:textColor="#2F3030"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/welcomeMessage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,13 +39,13 @@
 
     <TextView
         android:id="@+id/welcomeMessage"
-        android:layout_width="426dp"
-        android:layout_height="109dp"
+        android:layout_width="592dp"
+        android:layout_height="132dp"
         android:fontFamily="@font/leckerli_one"
         android:text="@string/welcomeMsg"
         android:textAlignment="center"
-        android:textColor="#2196F3"
-        android:textSize="36sp"
+        android:textColor="#555555"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -54,10 +55,10 @@
 
     <EditText
         android:id="@+id/txtBxWelcomeNic"
-        android:layout_width="407dp"
-        android:layout_height="56dp"
+        android:layout_width="500dp"
+        android:layout_height="54dp"
         android:padding="10dp"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -68,10 +69,14 @@
 
     <EditText
         android:id="@+id/txtBxWelcomeCode"
-        android:layout_width="407dp"
-        android:layout_height="56dp"
+        android:layout_width="500dp"
+        android:layout_height="62dp"
+        android:cursorVisible="true"
+        android:fadingEdge="none"
         android:inputType="number"
-        android:textColor="#FFFFFF"
+        android:labelFor="@id/txtBxWelcomeCode"
+        android:padding="10dp"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -82,13 +87,19 @@
 
     <Button
         android:id="@+id/loginBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="71dp"
-        android:background="@android:color/holo_blue_dark"
+        android:layout_width="172dp"
+        android:layout_height="62dp"
+        android:background="@drawable/button"
+        android:fontFamily="sans-serif-black"
         android:text="@string/loginBtn"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

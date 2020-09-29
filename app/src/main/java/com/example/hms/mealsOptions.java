@@ -4,8 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.TimeZone;
 
 public class mealsOptions extends AppCompatActivity {
 
@@ -14,51 +22,80 @@ public class mealsOptions extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meals_options);
 
-        Button btn = (Button)findViewById(R.id.mealsBreakfastBtn);
+        Calendar date = null;
+        Button btn1 = (Button)findViewById(R.id.mealsBreakfastBtn);
+        Button btn2 = (Button)findViewById(R.id.mealsLunchBtn);
+        Button btn3 = (Button)findViewById(R.id.mealsDinnerBtn);
+        Button btn4 = (Button)findViewById(R.id.mealsBarBtn);
+        Button btn5 = (Button)findViewById(R.id.mealsSnackBtn);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        Calendar cal = Calendar.getInstance(TimeZone.getTimeZone("GMT+5:30"));
+        final int currentHour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
+        System.out.println(currentHour);
+
+
+        btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mealsOptions.this, breakfastMenu.class));
+                if(currentHour >= 6 && currentHour <= 10){
+                    startActivity(new Intent(mealsOptions.this, breakfastMenu.class));
+                    Toast.makeText(getApplicationContext(), "Breakfast Time!! ", Toast.LENGTH_SHORT).show();
+                }
+                else{
+
+    //temporary, please remove
+                    startActivity(new Intent(mealsOptions.this, breakfastMenu.class));
+                    Toast.makeText(getApplicationContext(), "Not the time for Breakfast :(", Toast.LENGTH_SHORT).show();
+                }
             }
         });
-
-        Button btn2 = (Button)findViewById(R.id.mealsLunchBtn);
-
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mealsOptions.this, lunchMenu.class));
+                if(currentHour >= 11 && currentHour <= 15){
+                    startActivity(new Intent(mealsOptions.this, lunchMenu.class));
+                    Toast.makeText(getApplicationContext(), "Lunch Time!! ", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    Toast.makeText(getApplicationContext(), "Not the time for Lunch :(", Toast.LENGTH_SHORT).show();
+                }
             }
         });
-
-        Button btn3 = (Button)findViewById(R.id.mealsDinnerBtn);
-
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mealsOptions.this, dinnerMenu.class));
+                if(currentHour >= 19 && currentHour <= 22){
+                    startActivity(new Intent(mealsOptions.this, dinnerMenu.class));
+                    Toast.makeText(getApplicationContext(), "Dinner Time!! ", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    Toast.makeText(getApplicationContext(), "Not the time for Dinner :(", Toast.LENGTH_SHORT).show();
+                }
             }
         });
-
-        Button btn4 = (Button)findViewById(R.id.mealsBarBtn);
-
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mealsOptions.this, barMenu.class));
+                if(currentHour >= 16 && currentHour <= 01){
+                    startActivity(new Intent(mealsOptions.this, barMenu.class));
+                    Toast.makeText(getApplicationContext(), "Lets Sumihiri Pane!! ", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    Toast.makeText(getApplicationContext(), "Bar is closed :(", Toast.LENGTH_SHORT).show();
+                }
             }
         });
-
-        Button btn5 = (Button)findViewById(R.id.mealsSnackBtn);
-
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(mealsOptions.this, snacksMenu.class));
+                if(currentHour >= 7 && currentHour <= 23){
+                    startActivity(new Intent(mealsOptions.this, snacksMenu.class));
+                    Toast.makeText(getApplicationContext(), "Snack Time!! ", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    Toast.makeText(getApplicationContext(), "Snacks? Now? ", Toast.LENGTH_SHORT).show();
+                }
             }
         });
-
-
     }
 }
