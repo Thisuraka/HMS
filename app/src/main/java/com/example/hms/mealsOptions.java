@@ -42,8 +42,7 @@ public class mealsOptions extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Breakfast Time!! ", Toast.LENGTH_SHORT).show();
                 }
                 else{
-
-    //temporary, please remove
+                    //temp
                     startActivity(new Intent(mealsOptions.this, breakfastMenu.class));
                     Toast.makeText(getApplicationContext(), "Not the time for Breakfast :(", Toast.LENGTH_SHORT).show();
                 }
@@ -93,6 +92,8 @@ public class mealsOptions extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Snack Time!! ", Toast.LENGTH_SHORT).show();
                 }
                 else{
+//temp
+                    startActivity(new Intent(mealsOptions.this, snacksMenu.class));
                     Toast.makeText(getApplicationContext(), "Snacks? Now? ", Toast.LENGTH_SHORT).show();
                 }
             }

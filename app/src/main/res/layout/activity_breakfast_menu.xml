@@ -127,7 +127,7 @@
         android:id="@+id/bfBtn"
         android:layout_width="177dp"
         android:layout_height="49dp"
-        android:background="@drawable/button"
+        android:background="@android:color/holo_orange_dark"
         android:text="@string/bfBtn"
         android:textColor="#FFFFFF"
         android:textSize="30sp"

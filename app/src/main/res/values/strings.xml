@@ -44,57 +44,33 @@
 
     <!--====================== Lunch Menu Page =================================-->
     <string name="lunchTitle"> Lunch Menu - 12.00 P.M to 03.00 P.M </string>
-    <string name="lunchDateTimeTxt"> Date | Time </string>
-    <string name="lunchCol1"> Items </string>
-    <string name="lunchCol2"> Prices </string>
-    <string name="lunchItems">
-        Item1 \n\n
-        Item2 \n\n
-        Item3 \n\n
-    </string>
-    <string name="lunchCb1"> M_Price </string>
-    <string name="lunchCb1b"> L_Price </string>
-    <string name="lunchCb2"> M_Price </string>
-    <string name="lunchCb2b"> L_Price </string>
-    <string name="lunchCb3"> M_Price </string>
-    <string name="lunchCb3b"> L_Price </string>
-    <string name="lunchBtn"> Done </string>
+    <string name="lunchCb1"></string>
+    <string name="lunchCb1b"></string>
+    <string name="lunchCb2"></string>
+    <string name="lunchCb2b"></string>
+    <string name="lunchCb3"></string>
+    <string name="lunchCb3b"></string>
+    <string name="lunchBtn"> Order </string>
 
     <!--====================== Dinner Menu Page =================================-->
     <string name="dinnerTitle"> Dinner Menu - 08.00 P.M to 11.00 P.M </string>
-    <string name="dinnerDateTimeTxt"> Date | Time </string>
-    <string name="dinnerCol1"> Items </string>
-    <string name="dinnerCol2"> Prices </string>
-    <string name="dinnerItems">
-        Item1 \n\n
-        Item2 \n\n
-        Item3 \n\n
-    </string>
-    <string name="dinnerCb1"> M_Price </string>
-    <string name="dinnerCb1b"> L_Price </string>
-    <string name="dinnerCb2"> M_Price </string>
-    <string name="dinnerCb2b"> L_Price </string>
-    <string name="dinnerCb3"> M_Price </string>
-    <string name="dinnerCb3b"> L_Price </string>
-    <string name="dinnerBtn"> Done </string>
+    <string name="dinnerCb1"></string>
+    <string name="dinnerCb1b"></string>
+    <string name="dinnerCb2"></string>
+    <string name="dinnerCb2b"></string>
+    <string name="dinnerCb3"></string>
+    <string name="dinnerCb3b"></string>
+    <string name="dinnerBtn"> Order </string>
 
     <!--====================== Bar and Bites Menu Page =================================-->
     <string name="barTitle"> Bar and Bites </string>
-    <string name="barDateTimeTxt"> Date | Time </string>
-    <string name="barCol1"> Items </string>
-    <string name="barCol2"> Prices </string>
-    <string name="barItems">
-        Item1 \n\n
-        Item2 \n\n
-        Item3 \n\n
-    </string>
-    <string name="barCb1"> M_Price </string>
-    <string name="barCb1b"> L_Price </string>
-    <string name="barCb2"> M_Price </string>
-    <string name="barCb2b"> L_Price </string>
-    <string name="barCb3"> M_Price </string>
-    <string name="barCb3b"> L_Price </string>
-    <string name="barBtn"> Done </string>
+    <string name="barCb1"></string>
+    <string name="barCb1b"></string>
+    <string name="barCb2"></string>
+    <string name="barCb2b"></string>
+    <string name="barCb3"></string>
+    <string name="barCb3b"></string>
+    <string name="barBtn"> Order </string>
 
     <!--====================== Snacks and Tea Menu Page =================================-->
     <string name="snacksTitle"> Snacks and Tea </string>
