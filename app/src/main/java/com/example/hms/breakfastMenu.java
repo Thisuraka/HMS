@@ -79,50 +79,50 @@ public class breakfastMenu extends AppCompatActivity implements View.OnClickList
         switch (view.getId()) {
             case R.id.bfCb1:
                 if (bfCb1.isChecked()) {
-                    myList.add("Meal1");
+                    myList.add("Item1");
                 }
                 else if(!(bfCb1.isChecked())){
-                    myList.remove("Meal1");
+                    myList.remove("Item1");
                 }
                 break;
             case R.id.bfCb1b:
                 if (bfCb1b.isChecked()) {
-                    myList.add("Meal2");
+                    myList.add("Item2");
                 }
                 else if(!(bfCb1b.isChecked())){
-                    myList.remove("Meal2");
+                    myList.remove("Item2");
                 }
                 break;
             case R.id.bfCb2:
                 if (bfCb2.isChecked()) {
-                    myList.add("Meal3");
+                    myList.add("Item3");
                 }
                 else if(!(bfCb2.isChecked())){
-                    myList.remove("Meal3");
+                    myList.remove("Item3");
                 }
                 break;
             case R.id.bfCb2b:
                 if (bfCb2b.isChecked()) {
-                    myList.add("Meal4");
+                    myList.add("Item4");
                 }
                 else if(!(bfCb2b.isChecked())){
-                    myList.remove("Meal4");
+                    myList.remove("Item4");
                 }
                 break;
             case R.id.bfCb3:
                 if (bfCb3.isChecked()) {
-                    myList.add("Meal5");
+                    myList.add("Item5");
                 }
                 else if(!(bfCb3.isChecked())){
-                    myList.remove("Meal5");
+                    myList.remove("Item5");
                 }
                 break;
             case R.id.bfCb3b:
                 if (bfCb3b.isChecked()) {
-                    myList.add("Meal6");
+                    myList.add("Item6");
                 }
                 else if(!(bfCb3b.isChecked())){
-                    myList.remove("Meal6");
+                    myList.remove("Item6");
                 }
                 break;
             default:

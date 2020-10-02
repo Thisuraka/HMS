@@ -74,50 +74,50 @@ public class barMenu extends AppCompatActivity implements View.OnClickListener{
         switch (view.getId()) {
             case R.id.barCb1:
                 if (barCb1.isChecked()) {
-                    myList.add("Bar1");
+                    myList.add("Item1");
                 }
                 else if(!(barCb1.isChecked())){
-                    myList.remove("Bar1");
+                    myList.remove("Item1");
                 }
                 break;
             case R.id.barCb1b:
                 if (barCb1b.isChecked()) {
-                    myList.add("Bar2");
+                    myList.add("Item2");
                 }
                 else if(!(barCb1b.isChecked())){
-                    myList.remove("Bar2");
+                    myList.remove("Item2");
                 }
                 break;
             case R.id.barCb2:
                 if (barCb2.isChecked()) {
-                    myList.add("Bar3");
+                    myList.add("Item3");
                 }
                 else if(!(barCb2.isChecked())){
-                    myList.remove("Bar3");
+                    myList.remove("Item3");
                 }
                 break;
             case R.id.barCb2b:
                 if (barCb2b.isChecked()) {
-                    myList.add("Bar4");
+                    myList.add("Item4");
                 }
                 else if(!(barCb2b.isChecked())){
-                    myList.remove("Bar4");
+                    myList.remove("Item4");
                 }
                 break;
             case R.id.barCb3:
                 if (barCb3.isChecked()) {
-                    myList.add("Bar5");
+                    myList.add("Item5");
                 }
                 else if(!(barCb3.isChecked())){
-                    myList.remove("Bar5");
+                    myList.remove("Item5");
                 }
                 break;
             case R.id.barCb3b:
                 if (barCb3b.isChecked()) {
-                    myList.add("Bar6");
+                    myList.add("Item6");
                 }
                 else if(!(barCb3b.isChecked())){
-                    myList.remove("Bar6");
+                    myList.remove("Item6");
                 }
                 break;
             default:

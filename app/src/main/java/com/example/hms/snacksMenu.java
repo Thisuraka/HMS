@@ -74,50 +74,50 @@ public class snacksMenu extends AppCompatActivity implements View.OnClickListene
         switch (view.getId()) {
             case R.id.snacksCb1:
                 if (snacksCb1.isChecked()) {
-                    myList.add("Snack1");
+                    myList.add("Item1");
                 }
                 else if(!(snacksCb1.isChecked())){
-                    myList.remove("Snack1");
+                    myList.remove("Item1");
                 }
                 break;
             case R.id.snacksCb1b:
                 if (snacksCb1b.isChecked()) {
-                    myList.add("Snack2");
+                    myList.add("Item2");
                 }
                 else if(!(snacksCb1b.isChecked())){
-                    myList.remove("Snack2");
+                    myList.remove("Item2");
                 }
                 break;
             case R.id.snacksCb2:
                 if (snacksCb2.isChecked()) {
-                    myList.add("Snack3");
+                    myList.add("Item3");
                 }
                 else if(!(snacksCb2.isChecked())){
-                    myList.remove("Snack3");
+                    myList.remove("Item3");
                 }
                 break;
             case R.id.snacksCb2b:
                 if (snacksCb2b.isChecked()) {
-                    myList.add("Snack4");
+                    myList.add("Item4");
                 }
                 else if(!(snacksCb2b.isChecked())){
-                    myList.remove("Snack4");
+                    myList.remove("Item4");
                 }
                 break;
             case R.id.snacksCb3:
                 if (snacksCb3.isChecked()) {
-                    myList.add("Snack5");
+                    myList.add("Item5");
                 }
                 else if(!(snacksCb3.isChecked())){
-                    myList.remove("Snack5");
+                    myList.remove("Item5");
                 }
                 break;
             case R.id.snacksCb3b:
                 if (snacksCb3b.isChecked()) {
-                    myList.add("Snack6");
+                    myList.add("Item6");
                 }
                 else if(!(snacksCb3b.isChecked())){
-                    myList.remove("Snack6");
+                    myList.remove("Item6");
                 }
                 break;
             default:

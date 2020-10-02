@@ -85,14 +85,13 @@
     <!--========================== Configuration Dashboard ==============================-->
     <string name="confDaTxt">The amount will be added to your final bill when checking out.
         No additional charges are involved </string>
-    <string name="confDaItems">
-        Item1 \n\n
-        Item2 \n\n
-        Item3 \n\n
-    </string>
-    <string name="confDashSw1"> #### </string>
-    <string name="confDashSw2"> #### </string>
-    <string name="confDashSw3"> #### </string>
+    <string name="switch1"> Item 1 </string>
+    <string name="switch2"> Item 2 </string>
+    <string name="switch3"> Item 3 </string>
+    <string name="switch4"> Item 4 </string>
+    <string name="switch5"> Item 5 </string>
+    <string name="switch6"> Item 6 </string>
+    <string name="confTxtBx"> If you do not wish to update, please confirm </string>
     <string name="confDashBtn1"> Update </string>
     <string name="confDashBtn2"> Confirm </string>
 
