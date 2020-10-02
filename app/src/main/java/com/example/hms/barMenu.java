@@ -15,6 +15,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 public class barMenu extends AppCompatActivity implements View.OnClickListener{
     String strMealList = "";
@@ -23,6 +24,7 @@ public class barMenu extends AppCompatActivity implements View.OnClickListener{
     Meals meals;
     CheckBox barCb1, barCb1b, barCb2, barCb2b, barCb3, barCb3b;
     ArrayList<String> myList = new ArrayList<>();
+    String currentDateTimeString = java.text.DateFormat.getDateTimeInstance().format(new Date());
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,17 +51,20 @@ public class barMenu extends AppCompatActivity implements View.OnClickListener{
             @Override
             public void onClick(View view) {
 
-                dbRef = FirebaseDatabase.getInstance().getReference().child("Meals");
+                dbRef = FirebaseDatabase.getInstance().getReference().child("Bar").child(currentDateTimeString);
                 for (int i = 0; i < myList.size(); i++) {
                     strMealList += myList.get(i) + ",";
                 }
 
-                Log.i("Tag", strMealList);
+                Log.i("Ref", strMealList);
                 Toast.makeText(getApplicationContext(), strMealList, Toast.LENGTH_SHORT).show();
 
-                dbRef.child("Bar").setValue(strMealList);
+                dbRef.child("Ref").setValue(strMealList);
 
-                startActivity(new Intent(barMenu.this, configDash.class));
+                Intent intent = new Intent(getBaseContext(), configDash.class);
+                intent.putExtra("SESSION_ID",currentDateTimeString);
+                intent.putExtra("SOURCE","Bar");
+                startActivity(intent);
             }
         });
     }
@@ -71,30 +76,48 @@ public class barMenu extends AppCompatActivity implements View.OnClickListener{
                 if (barCb1.isChecked()) {
                     myList.add("Bar1");
                 }
+                else if(!(barCb1.isChecked())){
+                    myList.remove("Bar1");
+                }
                 break;
             case R.id.barCb1b:
                 if (barCb1b.isChecked()) {
                     myList.add("Bar2");
+                }
+                else if(!(barCb1b.isChecked())){
+                    myList.remove("Bar2");
                 }
                 break;
             case R.id.barCb2:
                 if (barCb2.isChecked()) {
                     myList.add("Bar3");
                 }
+                else if(!(barCb2.isChecked())){
+                    myList.remove("Bar3");
+                }
                 break;
             case R.id.barCb2b:
                 if (barCb2b.isChecked()) {
                     myList.add("Bar4");
+                }
+                else if(!(barCb2b.isChecked())){
+                    myList.remove("Bar4");
                 }
                 break;
             case R.id.barCb3:
                 if (barCb3.isChecked()) {
                     myList.add("Bar5");
                 }
+                else if(!(barCb3.isChecked())){
+                    myList.remove("Bar5");
+                }
                 break;
             case R.id.barCb3b:
                 if (barCb3b.isChecked()) {
                     myList.add("Bar6");
+                }
+                else if(!(barCb3b.isChecked())){
+                    myList.remove("Bar6");
                 }
                 break;
             default:

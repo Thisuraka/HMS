@@ -15,6 +15,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 public class lunchMenu extends AppCompatActivity implements View.OnClickListener{
     String strMealList = "";
@@ -23,6 +24,8 @@ public class lunchMenu extends AppCompatActivity implements View.OnClickListener
     Meals meals;
     CheckBox lunchCb1, lunchCb1b, lunchCb2, lunchCb2b, lunchCb3, lunchCb3b;
     ArrayList<String> myList = new ArrayList<>();
+    String currentDateTimeString = java.text.DateFormat.getDateTimeInstance().format(new Date());
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,7 +50,7 @@ public class lunchMenu extends AppCompatActivity implements View.OnClickListener
         lunchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dbRef = FirebaseDatabase.getInstance().getReference().child("Meals");
+                dbRef = FirebaseDatabase.getInstance().getReference().child("Lunch").child(currentDateTimeString);
                 for (int i = 0; i < myList.size(); i++) {
                     strMealList += myList.get(i) + ",";
                 }
@@ -55,8 +58,12 @@ public class lunchMenu extends AppCompatActivity implements View.OnClickListener
                 Log.i("Tag", strMealList);
                 Toast.makeText(getApplicationContext(), strMealList, Toast.LENGTH_SHORT).show();
 
-                dbRef.child("Lunch").setValue(strMealList);
-                startActivity(new Intent(lunchMenu.this, configDash.class));
+                dbRef.child("Ref").setValue(strMealList);
+
+                Intent intent = new Intent(getBaseContext(), configDash.class);
+                intent.putExtra("SESSION_ID",currentDateTimeString);
+                intent.putExtra("SOURCE","Lunch");
+                startActivity(intent);
             }
         });
     }
@@ -68,30 +75,48 @@ public class lunchMenu extends AppCompatActivity implements View.OnClickListener
                 if (lunchCb1.isChecked()) {
                     myList.add("Meal1");
                 }
+                else if(!(lunchCb1.isChecked())){
+                    myList.remove("Meal1");
+                }
                 break;
             case R.id.lunchCb1b:
                 if (lunchCb1b.isChecked()) {
                     myList.add("Meal2");
+                }
+                else if(!(lunchCb1b.isChecked())){
+                    myList.remove("Meal1");
                 }
                 break;
             case R.id.lunchCb2:
                 if (lunchCb2.isChecked()) {
                     myList.add("Meal3");
                 }
+                else if(!(lunchCb2.isChecked())){
+                    myList.remove("Meal1");
+                }
                 break;
             case R.id.lunchCb2b:
                 if (lunchCb2b.isChecked()) {
                     myList.add("Meal4");
+                }
+                else if(!(lunchCb2b.isChecked())){
+                    myList.remove("Meal1");
                 }
                 break;
             case R.id.lunchCb3:
                 if (lunchCb3.isChecked()) {
                     myList.add("Meal5");
                 }
+                else if(!(lunchCb3.isChecked())){
+                    myList.remove("Meal1");
+                }
                 break;
             case R.id.lunchCb3b:
                 if (lunchCb3b.isChecked()) {
                     myList.add("Meal6");
+                }
+                else if(!(lunchCb3b.isChecked())){
+                    myList.remove("Meal1");
                 }
                 break;
             default:

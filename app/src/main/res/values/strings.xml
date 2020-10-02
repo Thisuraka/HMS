@@ -74,27 +74,17 @@
 
     <!--====================== Snacks and Tea Menu Page =================================-->
     <string name="snacksTitle"> Snacks and Tea </string>
-    <string name="snacksDateTimeTxt"> Date | Time </string>
-    <string name="snacksCol1"> Items </string>
-    <string name="snacksCol2"> Prices </string>
-    <string name="snacksItems">
-        Item1 \n\n
-        Item2 \n\n
-        Item3 \n\n
-    </string>
-    <string name="snacksCb1"> M_Price </string>
-    <string name="snacksCb1b"> L_Price </string>
-    <string name="snacksCb2"> M_Price </string>
-    <string name="snacksCb2b"> L_Price </string>
-    <string name="snacksCb3"> M_Price </string>
-    <string name="snacksCb3b"> L_Price </string>
-    <string name="snacksBtn"> Done </string>
+    <string name="snacksCb1"></string>
+    <string name="snacksCb1b"></string>
+    <string name="snacksCb2"></string>
+    <string name="snacksCb2b"></string>
+    <string name="snacksCb3"></string>
+    <string name="snacksCb3b"></string>
+    <string name="snacksBtn"> Order </string>
 
     <!--========================== Configuration Dashboard ==============================-->
     <string name="confDaTxt">The amount will be added to your final bill when checking out.
         No additional charges are involved </string>
-    <string name="confDaCol1"> Items </string>
-    <string name="confDaCol2"> Prices </string>
     <string name="confDaItems">
         Item1 \n\n
         Item2 \n\n

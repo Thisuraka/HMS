@@ -4,28 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/snackbg"
     tools:context=".snacksMenu">
 
     <TextView
-        android:id="@+id/snacksDateTimeTxt"
-        android:layout_width="113dp"
-        android:layout_height="29dp"
-        android:text="@string/snacksDateTimeTxt"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.936"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036" />
-
-    <TextView
         android:id="@+id/snacksTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:layout_height="41dp"
         android:fontFamily="@font/kaushan_script"
         android:text="@string/snacksTitle"
         android:textAlignment="center"
@@ -33,154 +18,120 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.121" />
-
-    <TextView
-        android:id="@+id/snacksCol2"
-        android:layout_width="81dp"
-        android:layout_height="23dp"
-        android:fontFamily="@font/lato"
-        android:text="@string/snacksCol2"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.201" />
-
-    <TextView
-        android:id="@+id/snacksCol1"
-        android:layout_width="102dp"
-        android:layout_height="23dp"
-        android:fontFamily="@font/lato"
-        android:text="@string/snacksCol1"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.138"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.202" />
+        app:layout_constraintVertical_bias="0.132" />
 
     <CheckBox
         android:id="@+id/snacksCb1"
-        android:layout_width="105dp"
-        android:layout_height="23dp"
-        android:background="@android:color/background_light"
+        android:layout_width="330dp"
+        android:layout_height="175dp"
+        android:background="@drawable/snk1"
         android:text="@string/snacksCb1"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.268" />
+        app:layout_constraintVertical_bias="0.253" />
+
+    <DigitalClock
+        android:id="@+id/digClock6"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
 
     <CheckBox
         android:id="@+id/snacksCb2"
-        android:layout_width="105dp"
-        android:layout_height="23dp"
-        android:background="@android:color/background_light"
+        android:layout_width="330dp"
+        android:layout_height="175dp"
+        android:background="@drawable/snk3"
         android:text="@string/snacksCb2"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintHorizontal_bias="0.122"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
         android:id="@+id/snacksCb3"
-        android:layout_width="105dp"
-        android:layout_height="23dp"
-        android:background="@android:color/background_light"
+        android:layout_width="330dp"
+        android:layout_height="175dp"
+        android:background="@drawable/snk5"
         android:text="@string/snacksCb3"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintHorizontal_bias="0.123"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.395" />
+        app:layout_constraintVertical_bias="0.738" />
 
     <CheckBox
         android:id="@+id/snacksCb1b"
-        android:layout_width="105dp"
-        android:layout_height="23dp"
-        android:background="@android:color/background_light"
+        android:layout_width="330dp"
+        android:layout_height="175dp"
+        android:background="@drawable/snk2"
         android:text="@string/snacksCb1b"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.268" />
-
-    <CheckBox
-        android:id="@+id/snacksCb3b"
-        android:layout_width="105dp"
-        android:layout_height="23dp"
-        android:background="@android:color/background_light"
-        android:text="@string/snacksCb3b"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.854"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.394" />
+        app:layout_constraintVertical_bias="0.253" />
 
     <CheckBox
         android:id="@+id/snacksCb2b"
-        android:layout_width="105dp"
-        android:layout_height="23dp"
-        android:background="@android:color/background_light"
+        android:layout_width="330dp"
+        android:layout_height="175dp"
+        android:background="@drawable/snk4"
         android:text="@string/snacksCb2b"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.332" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/snacksItems"
-        android:layout_width="144dp"
-        android:layout_height="152dp"
-        android:fontFamily="@font/lato"
-        android:text="@string/snacksItems"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
+    <CheckBox
+        android:id="@+id/snacksCb3b"
+        android:layout_width="330dp"
+        android:layout_height="175dp"
+        android:background="@drawable/snk6"
+        android:text="@string/snacksCb3b"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.311" />
+        app:layout_constraintVertical_bias="0.738" />
 
     <Button
         android:id="@+id/snacksBtn"
-        android:layout_width="87dp"
-        android:layout_height="33dp"
-        android:background="@drawable/button"
+        android:layout_width="177dp"
+        android:layout_height="49dp"
+        android:background="@android:color/holo_green_light"
         android:text="@string/snacksBtn"
         android:textColor="#FFFFFF"
-        android:textSize="12sp"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.889"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.928" />
+        app:layout_constraintVertical_bias="0.914" />
 </androidx.constraintlayout.widget.ConstraintLayout>

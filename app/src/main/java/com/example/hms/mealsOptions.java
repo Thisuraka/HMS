@@ -56,6 +56,8 @@ public class mealsOptions extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Lunch Time!! ", Toast.LENGTH_SHORT).show();
                 }
                 else{
+                    //temp
+                    startActivity(new Intent(mealsOptions.this, lunchMenu.class));
                     Toast.makeText(getApplicationContext(), "Not the time for Lunch :(", Toast.LENGTH_SHORT).show();
                 }
             }
@@ -67,7 +69,8 @@ public class mealsOptions extends AppCompatActivity {
                     startActivity(new Intent(mealsOptions.this, dinnerMenu.class));
                     Toast.makeText(getApplicationContext(), "Dinner Time!! ", Toast.LENGTH_SHORT).show();
                 }
-                else{
+                else{   //temp
+                    startActivity(new Intent(mealsOptions.this, dinnerMenu.class));
                     Toast.makeText(getApplicationContext(), "Not the time for Dinner :(", Toast.LENGTH_SHORT).show();
                 }
             }
@@ -80,6 +83,8 @@ public class mealsOptions extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Lets Sumihiri Pane!! ", Toast.LENGTH_SHORT).show();
                 }
                 else{
+                    //temp
+                    startActivity(new Intent(mealsOptions.this, barMenu.class));
                     Toast.makeText(getApplicationContext(), "Bar is closed :(", Toast.LENGTH_SHORT).show();
                 }
             }

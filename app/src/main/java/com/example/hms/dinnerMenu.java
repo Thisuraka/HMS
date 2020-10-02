@@ -15,6 +15,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 public class dinnerMenu extends AppCompatActivity  implements View.OnClickListener {
     String strMealList = "";
@@ -23,6 +24,7 @@ public class dinnerMenu extends AppCompatActivity  implements View.OnClickListen
     Meals meals;
     CheckBox dinnerCb1, dinnerCb1b, dinnerCb2, dinnerCb2b, dinnerCb3, dinnerCb3b;
     ArrayList<String> myList = new ArrayList<>();
+    String currentDateTimeString = java.text.DateFormat.getDateTimeInstance().format(new Date());
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,17 +51,20 @@ public class dinnerMenu extends AppCompatActivity  implements View.OnClickListen
         dinnerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dbRef = FirebaseDatabase.getInstance().getReference().child("Meals");
+                dbRef = FirebaseDatabase.getInstance().getReference().child("Dinner").child(currentDateTimeString);
                 for (int i = 0; i < myList.size(); i++) {
                     strMealList += myList.get(i) + ",";
                 }
 
-                Log.i("Tag", strMealList);
+                Log.i("Ref", strMealList);
                 Toast.makeText(getApplicationContext(), strMealList, Toast.LENGTH_SHORT).show();
 
-                dbRef.child("Dinner").setValue(strMealList);
+                dbRef.child("Ref").setValue(strMealList);
 
-                startActivity(new Intent(dinnerMenu.this, configDash.class));
+                Intent intent = new Intent(getBaseContext(), configDash.class);
+                intent.putExtra("SESSION_ID",currentDateTimeString);
+                intent.putExtra("SOURCE","Dinner");
+                startActivity(intent);
             }
         });
     }
@@ -71,30 +76,48 @@ public class dinnerMenu extends AppCompatActivity  implements View.OnClickListen
                 if (dinnerCb1.isChecked()) {
                     myList.add("Meal1");
                 }
+                else if(!(dinnerCb1.isChecked())){
+                    myList.remove("Meal1");
+                }
                 break;
             case R.id.dinnerCb1b:
                 if (dinnerCb1b.isChecked()) {
                     myList.add("Meal2");
+                }
+                else if(!(dinnerCb1b.isChecked())){
+                    myList.remove("Meal2");
                 }
                 break;
             case R.id.dinnerCb2:
                 if (dinnerCb2.isChecked()) {
                     myList.add("Meal3");
                 }
+                else if(!(dinnerCb2.isChecked())){
+                    myList.remove("Meal3");
+                }
                 break;
             case R.id.dinnerCb2b:
                 if (dinnerCb2b.isChecked()) {
                     myList.add("Meal4");
+                }
+                else if(!(dinnerCb2b.isChecked())){
+                    myList.remove("Meal4");
                 }
                 break;
             case R.id.dinnerCb3:
                 if (dinnerCb3.isChecked()) {
                     myList.add("Meal5");
                 }
+                else if(!(dinnerCb3.isChecked())){
+                    myList.remove("Meal5");
+                }
                 break;
             case R.id.dinnerCb3b:
                 if (dinnerCb3b.isChecked()) {
                     myList.add("Meal6");
+                }
+                else if(!(dinnerCb3b.isChecked())){
+                    myList.remove("Meal6");
                 }
                 break;
             default:
