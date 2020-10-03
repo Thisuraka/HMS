@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         txtBxWelcomeCode = findViewById(R.id.txtBxWelcomeCode);
         loginBtn = (Button)findViewById(R.id.loginBtn);
 
-
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

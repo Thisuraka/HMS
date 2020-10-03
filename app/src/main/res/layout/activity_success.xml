@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/conf"
+    android:background="@drawable/background"
     tools:context=".success">
 
     <Button
@@ -12,6 +12,7 @@
         android:layout_width="177dp"
         android:layout_height="49dp"
         android:background="@drawable/button"
+        android:text="@string/confDashBtn1"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:textStyle="bold|italic"
@@ -19,8 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.841"
-        tools:text="@string/sucBtn" />
+        app:layout_constraintVertical_bias="0.888" />
 
     <ImageView
         android:id="@+id/scImg"

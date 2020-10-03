@@ -4,164 +4,147 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/conf"
     tools:context=".updateMenu">
 
-    <CheckBox
-        android:id="@+id/umCb1"
-        android:layout_width="105dp"
-        android:layout_height="23dp"
-        android:background="@android:color/background_light"
-        android:text="@string/umCb1"
-        android:textColor="#000000"
+    <TextView
+        android:id="@+id/umTxt2"
+        android:layout_width="278dp"
+        android:layout_height="29dp"
+        android:textAlignment="center"
+        android:textColor="#888888"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.189" />
+        app:layout_constraintVertical_bias="0.713"
+        tools:text="@string/umTxt2" />
 
-    <TextView
-        android:id="@+id/umItems"
-        android:layout_width="144dp"
-        android:layout_height="152dp"
-        android:fontFamily="@font/lato"
-        android:text="@string/umItems"
+    <Switch
+        android:id="@+id/uSwitch1"
+        android:layout_width="319dp"
+        android:layout_height="57dp"
+        android:paddingLeft="20dp"
+        android:text="Item 1"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.219" />
+        app:layout_constraintVertical_bias="0.196"
+        tools:text="@string/uSwitch1" />
 
-    <TextView
-        android:id="@+id/umCol2"
-        android:layout_width="81dp"
-        android:layout_height="23dp"
-        android:fontFamily="@font/lato"
-        android:text="@string/umCol2"
-        android:textAlignment="center"
+    <Switch
+        android:id="@+id/uSwitch2"
+        android:layout_width="319dp"
+        android:layout_height="57dp"
+        android:paddingLeft="20dp"
+        android:text="Item 2"
+        android:textColor="#FDFDFD"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284"
+        tools:text="@string/uSwitch2" />
+
+    <Switch
+        android:id="@+id/uSwitch3"
+        android:layout_width="319dp"
+        android:layout_height="57dp"
+        android:paddingLeft="20dp"
+        android:text="Item 3"
         android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.686"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122" />
-
-    <CheckBox
-        android:id="@+id/umCb3"
-        android:layout_width="105dp"
-        android:layout_height="23dp"
-        android:background="@android:color/background_light"
-        android:text="@string/umCb3"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.315" />
-
-    <CheckBox
-        android:id="@+id/umCb3b"
-        android:layout_width="105dp"
-        android:layout_height="23dp"
-        android:background="@android:color/background_light"
-        android:text="@string/umCb3b"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.854"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.315" />
-
-    <TextView
-        android:id="@+id/umCol1"
-        android:layout_width="102dp"
-        android:layout_height="23dp"
-        android:fontFamily="@font/lato"
-        android:text="@string/umCol1"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.138"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122" />
-
-    <CheckBox
-        android:id="@+id/umCb1b"
-        android:layout_width="105dp"
-        android:layout_height="23dp"
-        android:background="@android:color/background_light"
-        android:text="@string/umCb1b"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.854"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.189" />
-
-    <CheckBox
-        android:id="@+id/umCb2b"
-        android:layout_width="105dp"
-        android:layout_height="23dp"
-        android:background="@android:color/background_light"
-        android:text="@string/umCb2b"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.854"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
-
-    <CheckBox
-        android:id="@+id/umCb2"
-        android:layout_width="105dp"
-        android:layout_height="23dp"
-        android:background="@android:color/background_light"
-        android:text="@string/umCb2"
-        android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
-
-    <Button
-        android:id="@+id/umBtn"
-        android:layout_width="87dp"
-        android:layout_height="33dp"
-        android:background="@drawable/button"
-        android:text="@string/umBtn"
-        android:textColor="#FFFFFF"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
-
-    <ImageView
-        android:id="@+id/umAdd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:tint="@android:color/background_light"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.372"
-        app:srcCompat="@android:drawable/ic_menu_add" />
+        tools:text="@string/uSwitch3" />
+
+    <Switch
+        android:id="@+id/uSwitch4"
+        android:layout_width="319dp"
+        android:layout_height="57dp"
+        android:paddingLeft="20dp"
+        android:text="Item 4"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456"
+        tools:text="@string/uSwitch4" />
+
+    <Switch
+        android:id="@+id/uSwitch5"
+        android:layout_width="319dp"
+        android:layout_height="57dp"
+        android:paddingLeft="20dp"
+        android:text="Item 5"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541"
+        tools:text="@string/uSwitch5" />
+
+    <Switch
+        android:id="@+id/uSwitch6"
+        android:layout_width="319dp"
+        android:layout_height="57dp"
+        android:paddingLeft="20dp"
+        android:text="Item 6"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626"
+        tools:text="@string/uSwitch6" />
+
+    <Button
+        android:id="@+id/umBtn"
+        android:layout_width="177dp"
+        android:layout_height="49dp"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/umBtn"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
+
+    <TextView
+        android:id="@+id/umTxt1"
+        android:layout_width="488dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/umTxt1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

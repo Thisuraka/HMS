@@ -92,11 +92,14 @@
     <string name="switch5"> Item 5 </string>
     <string name="switch6"> Item 6 </string>
     <string name="confTxtBx"> If you do not wish to update, please confirm </string>
+    <string name="confTxtBx2"> Please note that each item costs 750 /- </string>
     <string name="confDashBtn1"> Update </string>
     <string name="confDashBtn2"> Confirm </string>
+    <string name="confDashBtn3"> Clear </string>
 
     <!--========================== Order Success ==============================-->
     <string name="sucBtn"> Done </string>
+    <string name="suc2"></string>
     <string name="sucMsg">
         Order confirmed \n\n
         Head to the dining area during the hours and enjoy your meals. \n\n
@@ -105,20 +108,14 @@
     </string>
 
     <!--========================= Update Page =================================-->
-    <string name="umCol1"> Items </string>
-    <string name="umCol2"> Prices </string>
-    <string name="umItems">
-        Item1 \n\n
-        Item2 \n\n
-        Item3 \n\n
-    </string>
-    <string name="umCb1"> M_Price </string>
-    <string name="umCb1b"> L_Price </string>
-    <string name="umCb2"> M_Price </string>
-    <string name="umCb2b"> L_Price </string>
-    <string name="umCb3"> M_Price </string>
-    <string name="umCb3b"> L_Price </string>
-    <string name="umAdd"> Add </string>
+    <string name="umTxt1"> Toggle the items to update </string>
+    <string name="umTxt2"> If you do not wish to update, please confirm </string>
+    <string name="uSwitch1"> Item 1 </string>
+    <string name="uSwitch2"> Item 2 </string>
+    <string name="uSwitch3"> Item 3 </string>
+    <string name="uSwitch4"> Item 4 </string>
+    <string name="uSwitch5"> Item 5 </string>
+    <string name="uSwitch6"> Item 6 </string>
     <string name="umBtn"> Done </string>
 
     <!--========================= Add Item Page =================================-->

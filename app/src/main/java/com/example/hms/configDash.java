@@ -9,7 +9,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Switch;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -24,9 +23,11 @@ import java.util.List;
 
 public class configDash extends AppCompatActivity {
 
-    Button update, confirm;
+    DatabaseReference dbRef;
+    Button update, confirm, clear;
     String sessionID, source, test;
     Switch switch1, switch2, switch3, switch4, switch5, switch6;
+    Integer tot = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,7 @@ public class configDash extends AppCompatActivity {
 
         confirm = (Button)findViewById(R.id.confDashBtn2);
         update = (Button)findViewById(R.id.confDashBtn1);
+        clear = (Button)findViewById(R.id.confDashBtn3);
 
         switch1 = findViewById(R.id.switch1);
         switch2 = findViewById(R.id.switch2);
@@ -66,26 +68,34 @@ public class configDash extends AppCompatActivity {
                         switch(b){
                             case "Item1":
                                 switch1.setChecked(true);
+                                tot = tot + 1;
                                 break;
                             case "Item2":
                                 switch2.setChecked(true);
+                                tot = tot + 1;
                                 break;
                             case "Item3":
                                 switch3.setChecked(true);
+                                tot = tot + 1;
                                 break;
                             case "Item4":
                                 switch4.setChecked(true);
+                                tot = tot + 1;
                                 break;
                             case "Item5":
                                 switch5.setChecked(true);
+                                tot = tot + 1;
+                                break;
+                            case "Item6":
+                                switch6.setChecked(true);
+                                tot = tot + 1;
                                 break;
                         }
                     }
-
- //                   Toast.makeText(getApplicationContext(), "yeps", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Please Confirm", Toast.LENGTH_SHORT).show();
                 }
                 else{
-//                    Toast.makeText(getApplicationContext(), "bummer", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Something went wrong", Toast.LENGTH_SHORT).show();
                 }
             }
 
@@ -95,17 +105,32 @@ public class configDash extends AppCompatActivity {
             }
         });
 
+        clear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dbRef = FirebaseDatabase.getInstance().getReference().child(source).child(sessionID);
+                dbRef.removeValue();
+                startActivity(new Intent(configDash.this, mainPage.class));
+            }
+        });
+
         update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(configDash.this, updateMenu.class));
+                Intent intent = new Intent(getBaseContext(), updateMenu.class);
+                intent.putExtra("SESSION_ID",sessionID);
+                intent.putExtra("SOURCE",source);
+                startActivity(intent);
             }
         });
 
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(configDash.this, success.class));
+                Intent intent = new Intent(getBaseContext(), orderSuccess.class);
+                intent.putExtra("TOT",tot);
+                intent.putExtra("SOURCE",source);
+                startActivity(intent);
             }
         });
     }
