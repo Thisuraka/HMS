@@ -17,7 +17,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class dinnerMenu extends AppCompatActivity  implements View.OnClickListener {
+public class dinnerMenu extends AppCompatActivity implements View.OnClickListener {
     String strMealList = "";
     Button dinnerBtn;
     DatabaseReference dbRef;
@@ -26,13 +26,19 @@ public class dinnerMenu extends AppCompatActivity  implements View.OnClickListen
     ArrayList<String> myList = new ArrayList<>();
     String currentDateTimeString = java.text.DateFormat.getDateTimeInstance().format(new Date());
 
+
+    /*    Disclaimer
+    date and time system is used to uniquely identify an instance, in case an overlap happens it would be handled
+    by a merge which would not affect the system in any way
+*/
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dinner_menu);
 
         meals = new Meals();
-        dinnerBtn = (Button) findViewById(R.id.dinnerBtn);
+        dinnerBtn = findViewById(R.id.dinnerBtn);
 
         dinnerCb1 = findViewById(R.id.dinnerCb1);
         dinnerCb1.setOnClickListener(this);
@@ -62,8 +68,8 @@ public class dinnerMenu extends AppCompatActivity  implements View.OnClickListen
                 dbRef.child("Ref").setValue(strMealList);
 
                 Intent intent = new Intent(getBaseContext(), configDash.class);
-                intent.putExtra("SESSION_ID",currentDateTimeString);
-                intent.putExtra("SOURCE","Dinner");
+                intent.putExtra("SESSION_ID", currentDateTimeString);
+                intent.putExtra("SOURCE", "Dinner");
                 startActivity(intent);
             }
         });
@@ -75,56 +81,48 @@ public class dinnerMenu extends AppCompatActivity  implements View.OnClickListen
             case R.id.dinnerCb1:
                 if (dinnerCb1.isChecked()) {
                     myList.add("Item1");
-                }
-                else if(!(dinnerCb1.isChecked())){
+                } else if (!(dinnerCb1.isChecked())) {
                     myList.remove("Item1");
                 }
                 break;
             case R.id.dinnerCb1b:
                 if (dinnerCb1b.isChecked()) {
                     myList.add("Item2");
-                }
-                else if(!(dinnerCb1b.isChecked())){
+                } else if (!(dinnerCb1b.isChecked())) {
                     myList.remove("Item2");
                 }
                 break;
             case R.id.dinnerCb2:
                 if (dinnerCb2.isChecked()) {
                     myList.add("Item3");
-                }
-                else if(!(dinnerCb2.isChecked())){
+                } else if (!(dinnerCb2.isChecked())) {
                     myList.remove("Item3");
                 }
                 break;
             case R.id.dinnerCb2b:
                 if (dinnerCb2b.isChecked()) {
                     myList.add("Item4");
-                }
-                else if(!(dinnerCb2b.isChecked())){
+                } else if (!(dinnerCb2b.isChecked())) {
                     myList.remove("Item4");
                 }
                 break;
             case R.id.dinnerCb3:
                 if (dinnerCb3.isChecked()) {
                     myList.add("Item5");
-                }
-                else if(!(dinnerCb3.isChecked())){
+                } else if (!(dinnerCb3.isChecked())) {
                     myList.remove("Item5");
                 }
                 break;
             case R.id.dinnerCb3b:
                 if (dinnerCb3b.isChecked()) {
                     myList.add("Item6");
-                }
-                else if(!(dinnerCb3b.isChecked())){
+                } else if (!(dinnerCb3b.isChecked())) {
                     myList.remove("Item6");
                 }
                 break;
             default:
                 //Toast.makeText(getApplicationContext(), "No dinner tonight?", Toast.LENGTH_SHORT).show();
         }
-
-        Log.i("TagMyList",myList.toString());
-
+        Log.i("TagMyList", myList.toString());
     }
 }

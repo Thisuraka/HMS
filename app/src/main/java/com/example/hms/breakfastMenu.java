@@ -27,6 +27,11 @@ public class breakfastMenu extends AppCompatActivity implements View.OnClickList
     ArrayList<String> myList = new ArrayList<>();
     String currentDateTimeString = java.text.DateFormat.getDateTimeInstance().format(new Date());
 
+    /*    Disclaimer
+    date and time system is used to uniquely identify an instance, in case an overlap happens it would be handled
+    by a merge which would not affect the system in any way
+*/
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,7 +59,7 @@ public class breakfastMenu extends AppCompatActivity implements View.OnClickList
                 dbRef = FirebaseDatabase.getInstance().getReference().child("Breakfast").child(currentDateTimeString);
                 for (int i = 0; i < myList.size(); i++) {
                     strMealList += myList.get(i) + ",";
-                }
+                } //set the data to a string with "," as a split point and sent to DB
 
                 Log.i("Tag", strMealList);
 
@@ -63,12 +68,9 @@ public class breakfastMenu extends AppCompatActivity implements View.OnClickList
                 Log.i("sessionID", currentDateTimeString);
 
                 Intent intent = new Intent(getBaseContext(), configDash.class);
-                intent.putExtra("SESSION_ID",currentDateTimeString);
-                intent.putExtra("SOURCE","Breakfast");
+                intent.putExtra("SESSION_ID", currentDateTimeString);
+                intent.putExtra("SOURCE", "Breakfast");
                 startActivity(intent);
-
-//                startActivity(new Intent(breakfastMenu.this, configDash.class));
-
             }
         });
 
@@ -80,57 +82,48 @@ public class breakfastMenu extends AppCompatActivity implements View.OnClickList
             case R.id.bfCb1:
                 if (bfCb1.isChecked()) {
                     myList.add("Item1");
-                }
-                else if(!(bfCb1.isChecked())){
+                } else if (!(bfCb1.isChecked())) {
                     myList.remove("Item1");
                 }
                 break;
             case R.id.bfCb1b:
                 if (bfCb1b.isChecked()) {
                     myList.add("Item2");
-                }
-                else if(!(bfCb1b.isChecked())){
+                } else if (!(bfCb1b.isChecked())) {
                     myList.remove("Item2");
                 }
                 break;
             case R.id.bfCb2:
                 if (bfCb2.isChecked()) {
                     myList.add("Item3");
-                }
-                else if(!(bfCb2.isChecked())){
+                } else if (!(bfCb2.isChecked())) {
                     myList.remove("Item3");
                 }
                 break;
             case R.id.bfCb2b:
                 if (bfCb2b.isChecked()) {
                     myList.add("Item4");
-                }
-                else if(!(bfCb2b.isChecked())){
+                } else if (!(bfCb2b.isChecked())) {
                     myList.remove("Item4");
                 }
                 break;
             case R.id.bfCb3:
                 if (bfCb3.isChecked()) {
                     myList.add("Item5");
-                }
-                else if(!(bfCb3.isChecked())){
+                } else if (!(bfCb3.isChecked())) {
                     myList.remove("Item5");
                 }
                 break;
             case R.id.bfCb3b:
                 if (bfCb3b.isChecked()) {
                     myList.add("Item6");
-                }
-                else if(!(bfCb3b.isChecked())){
+                } else if (!(bfCb3b.isChecked())) {
                     myList.remove("Item6");
                 }
                 break;
             default:
-                //Toast.makeText(getApplicationContext(), "Breakfast is important !", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(), "Breakfast is important !", Toast.LENGTH_SHORT).show();
         }
-
-        Log.i("TagMyList",myList.toString());
-
-
+        Log.i("TagMyList", myList.toString());
     }
 }

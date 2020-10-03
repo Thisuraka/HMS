@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 public class updateMenu extends AppCompatActivity implements View.OnClickListener {
 
-    Integer tot=0;
+    Integer tot = 0;
     Button umBtn;
     DatabaseReference dbRef;
     String strMealList = "";
@@ -38,7 +38,7 @@ public class updateMenu extends AppCompatActivity implements View.OnClickListene
         Log.i("sessionID", sessionID);
         Log.i("source", source);
 
-        umBtn = (Button)findViewById(R.id.umBtn);
+        umBtn = findViewById(R.id.umBtn);
 
         uSwitch1 = findViewById(R.id.uSwitch1);
         uSwitch1.setOnClickListener(this);
@@ -66,11 +66,12 @@ public class updateMenu extends AppCompatActivity implements View.OnClickListene
                 dbRef.child("Ref").setValue(strMealList);
 
                 Intent intent = new Intent(getBaseContext(), orderSuccess.class);
-                intent.putExtra("TOT",tot);
+                intent.putExtra("TOT", tot);
                 startActivity(intent);
             }
         });
     }
+
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
@@ -78,8 +79,7 @@ public class updateMenu extends AppCompatActivity implements View.OnClickListene
                 if (uSwitch1.isChecked()) {
                     myList.add("Item1");
                     tot = tot + 1;
-                }
-                else if(!(uSwitch1.isChecked())){
+                } else if (!(uSwitch1.isChecked())) {
                     myList.remove("Item1");
                 }
                 break;
@@ -87,8 +87,7 @@ public class updateMenu extends AppCompatActivity implements View.OnClickListene
                 if (uSwitch2.isChecked()) {
                     myList.add("Item2");
                     tot = tot + 1;
-                }
-                else if(!(uSwitch2.isChecked())){
+                } else if (!(uSwitch2.isChecked())) {
                     myList.remove("Item2");
                 }
                 break;
@@ -96,8 +95,7 @@ public class updateMenu extends AppCompatActivity implements View.OnClickListene
                 if (uSwitch3.isChecked()) {
                     myList.add("Item3");
                     tot = tot + 1;
-                }
-                else if(!(uSwitch3.isChecked())){
+                } else if (!(uSwitch3.isChecked())) {
                     myList.remove("Item3");
                 }
                 break;
@@ -105,8 +103,7 @@ public class updateMenu extends AppCompatActivity implements View.OnClickListene
                 if (uSwitch4.isChecked()) {
                     myList.add("Item4");
                     tot = tot + 1;
-                }
-                else if(!(uSwitch4.isChecked())){
+                } else if (!(uSwitch4.isChecked())) {
                     myList.remove("Item4");
                 }
                 break;
@@ -114,8 +111,7 @@ public class updateMenu extends AppCompatActivity implements View.OnClickListene
                 if (uSwitch5.isChecked()) {
                     myList.add("Item5");
                     tot = tot + 1;
-                }
-                else if(!(uSwitch5.isChecked())){
+                } else if (!(uSwitch5.isChecked())) {
                     myList.remove("Item5");
                 }
                 break;
@@ -123,14 +119,13 @@ public class updateMenu extends AppCompatActivity implements View.OnClickListene
                 if (uSwitch6.isChecked()) {
                     myList.add("Item6");
                     tot = tot + 1;
-                }
-                else if(!(uSwitch6.isChecked())){
+                } else if (!(uSwitch6.isChecked())) {
                     myList.remove("Item6");
                 }
                 break;
             default:
                 //Toast.makeText(getApplicationContext(), "Breakfast is important !", Toast.LENGTH_SHORT).show();
         }
-        Log.i("TagMyList",myList.toString());
+        Log.i("TagMyList", myList.toString());
     }
 }

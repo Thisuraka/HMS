@@ -16,12 +16,12 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText txtBxWelcomeNic,txtBxWelcomeCode;
+    EditText txtBxWelcomeNic, txtBxWelcomeCode;
     Button loginBtn;
     DatabaseReference dbRef;
     User user;
 
-    private void clearControls(){
+    private void clearControls() {
         txtBxWelcomeNic.setText("");
         txtBxWelcomeCode.setText("");
     }
@@ -34,21 +34,21 @@ public class MainActivity extends AppCompatActivity {
         user = new User();
         txtBxWelcomeNic = findViewById(R.id.txtBxWelcomeNic);
         txtBxWelcomeCode = findViewById(R.id.txtBxWelcomeCode);
-        loginBtn = (Button)findViewById(R.id.loginBtn);
+        loginBtn = findViewById(R.id.loginBtn);
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 dbRef = FirebaseDatabase.getInstance().getReference().child("User");
                 try {
-                    if (TextUtils.isEmpty(txtBxWelcomeNic.getText().toString())){
-                        Toast.makeText(getApplicationContext(), "Please enter NIC", Toast.LENGTH_SHORT).show();}
-                    else if (TextUtils.isEmpty(txtBxWelcomeCode.getText().toString())){
-                        Toast.makeText(getApplicationContext(), "Please enter Code", Toast.LENGTH_SHORT).show();}
-                    else if (txtBxWelcomeNic.equals("admin") && txtBxWelcomeCode.equals("1234")){
+                    if (TextUtils.isEmpty(txtBxWelcomeNic.getText().toString())) {
+                        Toast.makeText(getApplicationContext(), "Please enter NIC", Toast.LENGTH_SHORT).show();
+                    } else if (TextUtils.isEmpty(txtBxWelcomeCode.getText().toString())) {
+                        Toast.makeText(getApplicationContext(), "Please enter Code", Toast.LENGTH_SHORT).show();
+                    } else if (txtBxWelcomeNic.equals("admin") && txtBxWelcomeCode.equals("1234")) {
                         Toast.makeText(getApplicationContext(), "Welcome", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(MainActivity.this, mainPage.class));}
-                    else {
+                        startActivity(new Intent(MainActivity.this, mainPage.class));
+                    } else {
                         user.setNic(txtBxWelcomeNic.getText().toString().trim());
                         user.setCode(Integer.parseInt(txtBxWelcomeCode.getText().toString().trim()));
 
@@ -59,16 +59,14 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(MainActivity.this, mainPage.class));
                     }
 
-     //temporary. remove later
+                    //temporary. remove later
                     startActivity(new Intent(MainActivity.this, mainPage.class));
-                }
-                catch (NumberFormatException e){
+                } catch (NumberFormatException e) {
                     Toast.makeText(getApplicationContext(), "Invalid Contact Number", Toast.LENGTH_SHORT).show();
                 }
-}
+            }
         });
     }
-
 
 
 }

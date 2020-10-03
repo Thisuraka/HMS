@@ -32,28 +32,24 @@ public class orderSuccess extends AppCompatActivity {
         source = getIntent().getStringExtra("SOURCE");
         tot = getIntent().getIntExtra("TOT", tot);
 
-        done = (Button) findViewById(R.id.sucBtn);
+        done = findViewById(R.id.sucBtn);
 
-        if (currentHour >= 21 && currentHour <= 22 && source == "Bar") {
+        if (currentHour >= 21 && currentHour <= 22 && source.equals("Bar")) {
             tot = tot * 750;
-            if (tot > 2250){
+            if (tot > 2250) {
                 Toast.makeText(getApplicationContext(), "Eligible for a discount. Contact Bar staff", Toast.LENGTH_LONG).show();
             }
-        }
-        else if (currentHour >= 16 && currentHour <= 18 && source == "Snacks"){
+        } else if (currentHour >= 16 && currentHour <= 18 && source.equals("Snacks")) {
             tot = tot * 750 - 200;
             Toast.makeText(getApplicationContext(), "Eligible for a discount", Toast.LENGTH_LONG).show();
             suc2.setText("Your Total for current order is :  " + tot + ". " + "You have received a discount");
-        }
-        else{
+        } else {
             tot = tot * 750;
             Log.i("tot", String.valueOf(tot));
             suc2.setText("Your Total for current order is :  " + tot);
         }
 
-
-
-
+        //button to navigate back to main
         done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

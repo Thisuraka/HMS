@@ -48,7 +48,6 @@ public class snacksMenu extends AppCompatActivity implements View.OnClickListene
         snacksCb3b.setOnClickListener(this);
 
 
-
         snacksBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -63,60 +62,55 @@ public class snacksMenu extends AppCompatActivity implements View.OnClickListene
                 dbRef.child("Ref").setValue(strMealList);
 
                 Intent intent = new Intent(getBaseContext(), configDash.class);
-                intent.putExtra("SESSION_ID",currentDateTimeString);
-                intent.putExtra("SOURCE","Snacks");
+                intent.putExtra("SESSION_ID", currentDateTimeString);
+                intent.putExtra("SOURCE", "Snacks");
                 startActivity(intent);
             }
         });
     }
+
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.snacksCb1:
                 if (snacksCb1.isChecked()) {
                     myList.add("Item1");
-                }
-                else if(!(snacksCb1.isChecked())){
+                } else if (!(snacksCb1.isChecked())) {
                     myList.remove("Item1");
                 }
                 break;
             case R.id.snacksCb1b:
                 if (snacksCb1b.isChecked()) {
                     myList.add("Item2");
-                }
-                else if(!(snacksCb1b.isChecked())){
+                } else if (!(snacksCb1b.isChecked())) {
                     myList.remove("Item2");
                 }
                 break;
             case R.id.snacksCb2:
                 if (snacksCb2.isChecked()) {
                     myList.add("Item3");
-                }
-                else if(!(snacksCb2.isChecked())){
+                } else if (!(snacksCb2.isChecked())) {
                     myList.remove("Item3");
                 }
                 break;
             case R.id.snacksCb2b:
                 if (snacksCb2b.isChecked()) {
                     myList.add("Item4");
-                }
-                else if(!(snacksCb2b.isChecked())){
+                } else if (!(snacksCb2b.isChecked())) {
                     myList.remove("Item4");
                 }
                 break;
             case R.id.snacksCb3:
                 if (snacksCb3.isChecked()) {
                     myList.add("Item5");
-                }
-                else if(!(snacksCb3.isChecked())){
+                } else if (!(snacksCb3.isChecked())) {
                     myList.remove("Item5");
                 }
                 break;
             case R.id.snacksCb3b:
                 if (snacksCb3b.isChecked()) {
                     myList.add("Item6");
-                }
-                else if(!(snacksCb3b.isChecked())){
+                } else if (!(snacksCb3b.isChecked())) {
                     myList.remove("Item6");
                 }
                 break;
@@ -124,6 +118,6 @@ public class snacksMenu extends AppCompatActivity implements View.OnClickListene
                 //Toast.makeText(getApplicationContext(), "Snack time !", Toast.LENGTH_SHORT).show();
         }
 
-        Log.i("TagMyList",myList.toString());
+        Log.i("TagMyList", myList.toString());
     }
 }

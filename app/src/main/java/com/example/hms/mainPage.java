@@ -14,21 +14,21 @@ public class mainPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page);
 
-        ImageView imageView1 = (ImageView) findViewById(R.id.accomImg);
-        ImageView imageView2 = (ImageView) findViewById(R.id.otherfacImg);
-        ImageView imageView3 = (ImageView) findViewById(R.id.mealsImg);
+        ImageView imageView1 = findViewById(R.id.accomImg);
+        ImageView imageView2 = findViewById(R.id.otherfacImg);
+        ImageView imageView3 = findViewById(R.id.mealsImg);
 
 
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                switch (view.getId()){
+                switch (view.getId()) {
                     case R.id.mealsImg:
-                        intent.setClass(mainPage.this,mealsOptions.class);
+                        intent.setClass(mainPage.this, mealsOptions.class);
                         break;
                     case R.id.otherfacImg:
-                        intent.setClass(mainPage.this,facilityMain.class);
+                        intent.setClass(mainPage.this, facilityMain.class);
                         break;
                     default:
                         break;
