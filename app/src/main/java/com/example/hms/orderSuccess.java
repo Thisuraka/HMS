@@ -30,7 +30,7 @@ public class orderSuccess extends AppCompatActivity {
 
         suc2 = findViewById(R.id.suc2);
         source = getIntent().getStringExtra("SOURCE");
-        tot = getIntent().getIntExtra("TOT", tot);
+        tot = getIntent().getIntExtra("TOT",tot);
 
         done = findViewById(R.id.sucBtn);
 

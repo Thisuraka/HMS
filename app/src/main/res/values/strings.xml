@@ -2,7 +2,7 @@
     <string name="app_name">HMS</string>
 
     <!--====================== Welcome Page ========================================-->
-    <string name="welcome">Welcome to the \n Resort Companion Gateway</string>
+    <string name="welcome">Welcome to \n Hotel Services Manager </string>
     <string name="welcomeDesc">The tablet will be the access point to
         all facilities available in the hotel including meals,
         accommodation and other facilities. </string>

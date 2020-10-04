@@ -4,11 +4,6 @@ public class User {
     private String Nic;
     private Integer code;
 
-    public User(String nic, Integer code) {
-        this.Nic = nic;
-        this.code = code;
-    }
-
     public User() {
 
     }
@@ -26,6 +21,11 @@ public class User {
     }
 
     public void setCode(Integer code) {
+        this.code = code;
+    }
+
+    public User(String nic, Integer code) {
+        this.Nic = nic;
         this.code = code;
     }
 }

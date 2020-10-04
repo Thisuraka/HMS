@@ -62,9 +62,7 @@ public class breakfastMenu extends AppCompatActivity implements View.OnClickList
                 } //set the data to a string with "," as a split point and sent to DB
 
                 Log.i("Tag", strMealList);
-
                 dbRef.child("Ref").setValue(strMealList);
-
                 Log.i("sessionID", currentDateTimeString);
 
                 Intent intent = new Intent(getBaseContext(), configDash.class);

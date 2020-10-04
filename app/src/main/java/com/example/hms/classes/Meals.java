@@ -4,17 +4,28 @@ public class Meals {
     private static String Breakfast;
     private static String Lunch;
     private static String Dinner;
-
-    public Meals(String breakfast, String lunch, String dinner) {
-        Breakfast = breakfast;
-        Lunch = lunch;
-        Dinner = dinner;
-    }
+    private static String Bar;
+    private static String Snacks;
 
     public Meals() {
 
     }
 
+    public static String getBar() {
+        return Bar;
+    }
+
+    public static void setBar(String bar) {
+        Bar = bar;
+    }
+
+    public static String getSnacks() {
+        return Snacks;
+    }
+
+    public static void setSnacks(String snacks) {
+        Snacks = snacks;
+    }
 
     public static String getBreakfast() {
         return Breakfast;
@@ -40,6 +51,12 @@ public class Meals {
         Dinner = dinner;
     }
 
+    public Meals(String breakfast, String lunch, String dinner, String Bar, String Snacks) {
+        Breakfast = breakfast;
+        Lunch = lunch;
+        Dinner = dinner;
+
+    }
 
 
 }
