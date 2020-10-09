@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "916533061102",
+    "firebase_url": "https://hmsdb-38153.firebaseio.com",
+    "project_id": "hmsdb-38153",
+    "storage_bucket": "hmsdb-38153.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916533061102:android:ab47845672411514db1aff",
+        "android_client_info": {
+          "package_name": "com.example.hms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916533061102-229l7j75jie9sit2q3m3kg1fgmk61dm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hms",
+            "certificate_hash": "95c95b78d20d3145aaf2cf4f42d90ee2112b03b2"
+          }
+        },
+        {
+          "client_id": "916533061102-4bvpe1cjqt118jf78jpfnf9aqge1u472.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP0Ysjc4et3S47FSPmR4eRYjWCk12uUWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916533061102-4bvpe1cjqt118jf78jpfnf9aqge1u472.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

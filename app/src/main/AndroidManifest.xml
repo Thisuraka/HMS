@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".outdoorSuccess"></activity>
+        <activity android:name=".outdoorConfigUpdate" />
+        <activity android:name=".ountdoorConfig" />
+        <activity android:name=".newOutdoor" />
+        <activity android:name=".indoorSuccess" />
+        <activity android:name=".indoorConfigUpdate" />
+        <activity android:name=".indoorConfig" />
+        <activity android:name=".new_indoor_view" />
+        <activity android:name=".facilityMain" />
+        <activity android:name=".roomReserved" />
+        <activity android:name=".addOns" />
+        <activity android:name=".roomReserve" />
+        <activity android:name=".accomChooseARoom" />
+        <activity android:name=".accomMain" />
+        <activity android:name=".addItem" />
+        <activity android:name=".updateMenu" />
+        <activity android:name=".orderSuccess" />
+        <activity android:name=".configDash" />
+        <activity android:name=".snacksMenu" />
+        <activity android:name=".barMenu" />
+        <activity android:name=".dinnerMenu" />
+        <activity android:name=".lunchMenu" />
+        <activity android:name=".breakfastMenu" />
+        <activity android:name=".mealsOptions" />
+        <activity android:name=".mainPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    tools:context=".mainPage">
+
+    <TextView
+        android:id="@+id/mainPageFacTxt"
+        android:layout_width="171dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/mainPageFacTxt"
+        android:textAlignment="center"
+        android:textColor="#3E3E3E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.799"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/otherfacImg"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <ImageView
+        android:id="@+id/mealsImg"
+        android:layout_width="183dp"
+        android:layout_height="149dp"
+        android:contentDescription="@string/mainPageMealImg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473"
+        app:srcCompat="@drawable/meals" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="190dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="313dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/mainPageMealTxt"
+        android:textAlignment="center"
+        android:textColor="#3E3E3E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mealsImg"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/accomImg"
+        android:layout_width="179dp"
+        android:layout_height="143dp"
+        android:contentDescription="@string/mainPageAccomImg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        app:srcCompat="@drawable/accommodation" />
+
+    <ImageView
+        android:id="@+id/otherfacImg"
+        android:layout_width="179dp"
+        android:layout_height="143dp"
+        android:contentDescription="@string/mainPageFacImg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        app:srcCompat="@drawable/fac" />
+
+    <TextView
+        android:id="@+id/mainPageAccomTxt"
+        android:layout_width="183dp"
+        android:layout_height="32dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/mainPageAccomTxt"
+        android:textAlignment="center"
+        android:textColor="#3E3E3E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accomImg"
+        app:layout_constraintVertical_bias="0.034" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

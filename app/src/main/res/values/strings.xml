@@ -1,0 +1,474 @@
+<resources>
+    <string name="app_name">HMS</string>
+
+    <!--====================== Welcome Page ========================================-->
+    <string name="welcome">Welcome to the \n Resort Companion Gateway</string>
+    <string name="welcomeDesc">The tablet will be the access point to
+        all facilities available in the hotel including meals,
+        accommodation and other facilities. </string>
+    <string name="welcomeMsg">Go ahead and login and enjoy your stay !</string>
+    <string name="txtBxNic"> NIC ... </string>
+    <string name="txtBxCode"> Code ... </string>
+    <string name="loginBtn">Login</string>
+
+    <!--====================== Main Page ========================================-->
+    <string name="mainPageAccomTxt">Accommodation</string>
+    <string name="mainPageFacTxt">Other Facilities</string>
+    <string name="mainPageMealTxt">Meals and Bar</string>
+    <string name="mainPageAccomImg">Accommodation</string>
+    <string name="mainPageFacImg">Other Facilities</string>
+    <string name="mainPageMealImg">Meals and Bar</string>
+
+    <!--====================== Meals Options Page =================================-->
+    <string name="mealsDateTimeTxt">Date | Time</string>
+    <string name="mealsBreakfastTxt"> Breakfast Menu - 06.00 A.M to 10.00 A.M </string>
+    <string name="mealsBreakfastBtn"> Breakfast </string>
+    <string name="mealsLunchTxt"> Lunch Menu - 12.00 P.M to 03.00 P.M </string>
+    <string name="mealsLunchBtn"> Lunch </string>
+    <string name="mealsDinnerTxt"> Dinner Menu - 08.00 P.M to 11.00 P.M </string>
+    <string name="mealsDinnerBtn"> Dinner </string>
+    <string name="mealsBarTxt"> Bar and Bites - 05.00 P.M to 11.00 P.M </string>
+    <string name="mealsBarBtn"> Bar </string>
+    <string name="mealsSnackTxt"> Snacks and Tea </string>
+    <string name="mealsSnackBtn"> Snacks </string>
+
+    <!--====================== Breakfast Menu Page =================================-->
+    <string name="bfTitle"> Breakfast Menu - 06.00 A.M to 10.00 A.M </string>
+    <string name="bfCb1"></string>
+    <string name="bfCb1b"></string>
+    <string name="bfCb2"></string>
+    <string name="bfCb2b"></string>
+    <string name="bfCb3"></string>
+    <string name="bfCb3b"></string>
+    <string name="bfBtn"> Order </string>
+
+    <!--====================== Lunch Menu Page =================================-->
+    <string name="lunchTitle"> Lunch Menu - 12.00 P.M to 03.00 P.M </string>
+    <string name="lunchCb1"></string>
+    <string name="lunchCb1b"></string>
+    <string name="lunchCb2"></string>
+    <string name="lunchCb2b"></string>
+    <string name="lunchCb3"></string>
+    <string name="lunchCb3b"></string>
+    <string name="lunchBtn"> Order </string>
+
+    <!--====================== Dinner Menu Page =================================-->
+    <string name="dinnerTitle"> Dinner Menu - 08.00 P.M to 11.00 P.M </string>
+    <string name="dinnerCb1"></string>
+    <string name="dinnerCb1b"></string>
+    <string name="dinnerCb2"></string>
+    <string name="dinnerCb2b"></string>
+    <string name="dinnerCb3"></string>
+    <string name="dinnerCb3b"></string>
+    <string name="dinnerBtn"> Order </string>
+
+    <!--====================== Bar and Bites Menu Page =================================-->
+    <string name="barTitle"> Bar and Bites </string>
+    <string name="barCb1"></string>
+    <string name="barCb1b"></string>
+    <string name="barCb2"></string>
+    <string name="barCb2b"></string>
+    <string name="barCb3"></string>
+    <string name="barCb3b"></string>
+    <string name="barBtn"> Order </string>
+
+    <!--====================== Snacks and Tea Menu Page =================================-->
+    <string name="snacksTitle"> Snacks and Tea </string>
+    <string name="snacksCb1"></string>
+    <string name="snacksCb1b"></string>
+    <string name="snacksCb2"></string>
+    <string name="snacksCb2b"></string>
+    <string name="snacksCb3"></string>
+    <string name="snacksCb3b"></string>
+    <string name="snacksBtn"> Order </string>
+
+    <!--========================== Configuration Dashboard ==============================-->
+    <string name="confDaTxt">The amount will be added to your final bill when checking out.
+        No additional charges are involved </string>
+    <string name="switch1"> Item 1 </string>
+    <string name="switch2"> Item 2 </string>
+    <string name="switch3"> Item 3 </string>
+    <string name="switch4"> Item 4 </string>
+    <string name="switch5"> Item 5 </string>
+    <string name="switch6"> Item 6 </string>
+    <string name="confTxtBx"> If you do not wish to update, please confirm </string>
+    <string name="confTxtBx2"> Please note that each item costs 750 /- </string>
+    <string name="confDashBtn1"> Update </string>
+    <string name="confDashBtn2"> Confirm </string>
+    <string name="confDashBtn3"> Clear </string>
+
+    <!--========================== Order Success ==============================-->
+    <string name="sucBtn"> Done </string>
+    <string name="suc2"></string>
+    <string name="sucMsg">
+        Order confirmed \n\n
+        Head to the dining area during the hours and enjoy your meals. \n\n
+        Drinks will be available in the bar \n\n
+        Snacks will be sent to the room \n\n
+    </string>
+
+    <!--========================= Update Page =================================-->
+    <string name="umTxt1"> Toggle the items to update </string>
+    <string name="umTxt2"> If you do not wish to update, please confirm </string>
+    <string name="uSwitch1"> Item 1 </string>
+    <string name="uSwitch2"> Item 2 </string>
+    <string name="uSwitch3"> Item 3 </string>
+    <string name="uSwitch4"> Item 4 </string>
+    <string name="uSwitch5"> Item 5 </string>
+    <string name="uSwitch6"> Item 6 </string>
+    <string name="umBtn"> Done </string>
+
+    <!--========================= Add Item Page =================================-->
+    <string name="aiTxtBox"> Search Here ...  </string>
+    <string name="aiItems">
+        Item1 \n\n
+    </string>
+    <string name="aiCb1"> M_Price </string>
+    <string name="aiCb1b"> L_Price </string>
+    <string name="aiBtn"> Done </string>
+
+    <!--========================= Facilities Main Page =================================-->
+    <string name="fmTxt1">Other Facilities </string>
+    <string name="fmTxt2"> Indoor </string>
+    <string name="fmTxt3"> Outdoor </string>
+    <string name="fmImg1"> Indoor </string>
+    <string name="fmImg2"> Outdoor </string>
+
+    <!--========================= Facilities Indoor Page =================================-->
+    <string name="fmIndoorTxt1"> Indoor </string>
+    <string name="fmIndoorTxt2"> Facility </string>
+    <string name="fmIndoorTxt3"> View </string>
+    <string name="fmIndoorTxt4">  Swimming Pool</string>
+    <string name="fmIndoorTxt5"> Video Game Room </string>
+    <string name="fmIndoorTxt6"> Game Room </string>
+    <string name="fmIndoorTxt7"> Spa </string>
+    <string name="fmIndoorTxt8"> Gym </string>
+
+    <string name="fmButton1"> View </string>
+    <string name="fmButton2"> View </string>
+    <string name="fmButton3"> View </string>
+    <string name="fmButton4"> View </string>
+    <string name="fmButton5"> View </string>
+
+    <!--========================= Facilities Outdoor Page =================================-->
+    <string name="fmOutdoorTxt1"> Outdoor </string>
+    <string name="fmOutdoorTxt2"> Facility </string>
+    <string name="fmOutdoorTxt3"> View </string>
+    <string name="fmOutdoorTxt4"> Cycling </string>
+    <string name="fmOutdoorTxt5"> Golf </string>
+    <string name="fmOutdoorTxt6"> Hiking </string>
+    <string name="fmOutdoorTxt7"> Playground </string>
+
+    <string name="fmButtonOu1"> View </string>
+    <string name="fmButtonOu2"> View </string>
+    <string name="fmButtonOu3"> View </string>
+    <string name="fmButtonOu4"> View </string>
+
+    <!--========================= Facilities Swimming Pool Page =================================-->
+    <string name="swimmingPoolTxt1">Swimming Pool</string>
+    <string name="swimmingPoolTxt2">Quantity</string>
+    <string name="swimmingPoolTxt3">Size</string>
+    <string name="swimmingPoolTxt4">Time</string>
+    <string name="swimmingPoolTxt5">(Details)</string>
+    <string name="swimmingPoolTxt6">(Details)</string>
+    <string name="swimmingPoolTxt7">(Details)</string>
+
+    <string name="swimmingPoolImg">Swimming Pool</string>
+
+    <string name="spButton1"> Back </string>
+    <string name="spButton2"> Cancel</string>
+    <string name="spButton3"> Reserve</string>
+
+    <!--========================= Facilities  Video Game Room Page =================================-->
+    <string name="vgRoomTxt1">Video Game Room</string>
+    <string name="vgRoomTxt2">Time</string>
+    <string name="vgRoomTxt3">(Details)</string>
+    <string name="vgRoomTxt4">(Details)</string>
+    <string name="vgRoomTxt5">(Details)</string>
+
+    <string name="vgRoomImg">videoGameRoom</string>
+
+    <string name="vgrButton1"> Back </string>
+    <string name="vgrButton2"> Cancel</string>
+    <string name="vgrButton3"> Reserve</string>
+
+    <!--========================= Facilities Game Room Page =================================-->
+    <string name="gameRoomTxt1">Game Room</string>
+    <string name="gameRoomTxt2">Chess</string>
+    <string name="gameRoomTxt3">Carrom</string>
+    <string name="gameRoomTxt4">Pool</string>
+
+    <string name="gameImg">gameRoom</string>
+
+    <string name="grButton1"> Back </string>
+    <string name="grButton2"> Cancel</string>
+    <string name="grButton3"> Reserve</string>
+    <string name="grButton4"> Reserve</string>
+    <string name="grButton5"> Reserve</string>
+
+    <!--========================= Facilities Spa Room Page =================================-->
+    <string name="spaTxt1">Spa Room</string>
+    <string name="spaTxt2">Time</string>
+    <string name="spaTxt3">(Details)</string>
+    <string name="spaTxt4">(Details)</string>
+    <string name="spaTxt5">(Details)</string>
+    <string name="spaTxt6">(Details)</string>
+
+    <string name="spaImg">Spa</string>
+
+    <string name="spaButton1"> Back </string>
+    <string name="spaButton2"> Cancel</string>
+    <string name="spaButton3"> Reserve</string>
+
+    <!--========================= Facilities Gym Page =================================-->
+    <string name="gymTxt1">Gym</string>
+    <string name="gymTxt2">(Details)</string>
+    <string name="gymTxt3">(Details)</string>
+    <string name="gymTxt4">(Details)</string>
+    <string name="gymTxt5">(Details)</string>
+    <string name="gymTxt6">(Details)</string>
+    <string name="gymTxt7">(Details)</string>
+
+    <string name="gymButton"> Back </string>
+
+    <!--========================= Facilities Cycling Page =================================-->
+    <string name="cycTxt1">Cycling</string>
+    <string name="cycTxt2">(Details)</string>
+    <string name="cycTxt3">(Details)</string>
+    <string name="cycTxt4">(Details)</string>
+    <string name="cycTxt5">(Details)</string>
+
+    <string name="cycButton1"> Back </string>
+    <string name="cycButton2"> Cancel</string>
+    <string name="cycButton3"> Reserve</string>
+
+    <string name="cycImg">cycImg</string>
+
+    <!--========================= Facilities Golf Page =================================-->
+    <string name="gTxt1">Golf</string>
+    <string name="gTxt2">(Details)</string>
+    <string name="gTxt3">(Details)</string>
+    <string name="gTxt4">(Details)</string>
+    <string name="gTxt5">(Details)</string>
+
+    <string name="gButton1"> Back </string>
+    <string name="gButton2"> Cancel</string>
+    <string name="gButton3"> Reserve</string>
+
+    <string name="gImg">gImg</string>
+
+    <!--========================= Facilities Hiking Page =================================-->
+    <string name="hTxt1">Hiking</string>
+    <string name="hTxt2">(Details)</string>
+    <string name="hTxt3">(Details)</string>
+    <string name="hTxt4">(Details)</string>
+    <string name="hTxt5">(Details)</string>
+
+    <string name="hButton1"> Back </string>
+
+    <string name="hImg">hImg</string>
+
+    <!--========================= Facilities Playground Page =================================-->
+    <string name="pgTxt1">Playground</string>
+    <string name="pgTxt2">(Details)</string>
+    <string name="pgTxt3">(Details)</string>
+    <string name="pgTxt4">(Details)</string>
+    <string name="pgTxt5">(Details)</string>
+
+    <string name="pgButton1"> Back </string>
+
+    <string name="pgImg">pgImg</string>
+
+    <!--========================= Facilities Success Page =================================-->
+    <string name="successTxt1">Reserved</string>
+    <string name="successTxt2">Show QR code below at access point</string>
+
+    <string name="scImg">scImg</string>
+
+
+    <!--========================= Accom Main Page =================================-->
+
+    <string name="amTxt1"> Room Features </string>
+    <string name="amTxt2"> Air conditioning </string>
+    <string name="amTxt3"> Private Balcony </string>
+    <string name="amTxt4"> Flat screen TV </string>
+    <string name="amTxt5"> Room types </string>
+    <string name="amTxt6"> Non-smoking rooms </string>
+    <string name="ambut1"> Choose a room </string>
+    <string name="amTxt7"> Good to know </string>
+    <string name="amTxt8"> Hotel view : Mountain view/Great view</string>
+    <string name="amTxt9"> Languages spoken : English/Sinhala </string>
+    <string name="amTxt10"> Time/Date </string>
+    <string name="amTxt11"> Desk </string>
+    <string name="amTxt12"> Room service </string>
+    <string name="amTxt13"> Bath/shower</string>
+
+    <!--========================= Accom Choose a room =================================-->
+
+    <string name="amChoosetxt1"> Time/Date</string>
+    <string name="ambutton2"> Back</string>
+    <string name="amChoosetxt2"> Choose a room</string>
+    <string name="amChoosetxt3"> Breakfast include-Deluxe Double or TwinRoom with Mountain View - Free cancellation</string>
+    <string name="amChoosetxt4"> LKR 22,193.47 </string>
+    <string name="ambutton3"> Select</string>
+    <string name="amChoosetxt5"> Breakfast include -Super Deluxe Double Room with Mountain view</string>
+    <string name="ambutton4"> Select</string>
+    <string name="amChoosetxt6"> LKR 26,198.60</string>
+    <string name="amChoosetxt7"> LKR 30,500.00</string>
+    <string name="amChoosetxt8"> Breakfast include -Deluxe Single Room with awesome Mountain view</string>
+    <string name="ambutton5"> Select</string>
+    <string name="amChoosetxt9"> </string>
+    <string name="amChoosetxt10"> </string>
+    <string name="amChoosetxt11"> </string>
+
+    <!--========================= Accom Reserve =================================-->
+
+    <string name="amservetxt1"> Time/Date</string>
+    <string name="amrbut1">Back</string>
+    <string name="amreservetxt2">Breakfast include-Deluxe Double or TwinRoom with Mountain View </string>
+    <string name="amreservetxt3"> </string>
+    <string name="amrbut2">prev</string>
+    <string name="amrbut3">next</string>
+    <string name="amreservetxt4"> BED :1 extra-large double bed</string>
+    <string name="amreservetxt5"> Air Conditioning</string>
+    <string name="amreservetxt6">Ensuite bathroom </string>
+    <string name="amreservetxt7"> Garden view</string>
+    <string name="amreservetxt8"> Flat-screen TV</string>
+    <string name="amreservetxt9"> Free WiFi</string>
+    <string name="amreservetxt10">Breakfast in the room</string>
+    <string name="amrbut4">Reserve</string>
+    <string name="amrbut5">See Add-ons</string>
+    <string name="amreservetxt11">Room Price : LKR 22,193.47</string>
+
+    <!--========================= Accom Add-ons=================================-->
+    <string name="amaddontxt1"> Time/Date</string>
+    <string name="amaddontxt2">Add-ons</string>
+    <string name="amaddontxt3"> Pillow LKR 100 </string>
+    <string name="amaddontxt4"> Bed Sheet LKR 200</string>
+    <string name="amaddontxt5"> Add-ons LKR 150</string>
+    <string name="amaddontxt6">Add-ons LKR 200</string>
+    <string name="amaddontxt7">Add-ons LKR 100</string>
+    <string name="amaddonbut1">Add</string>
+    <string name="amaddonbut2">Add</string>
+    <string name="amaddonbut3">Add</string>
+    <string name="amaddonbut4">Add</string>
+    <string name="amaddonbut5">Add</string>
+    <string name="amaddontxt9">Your Add-ons</string>
+    <string name="amaddontxt10">Pillow LKR 100</string>
+    <string name="amaddontxt11">Add-ons LKR 300</string>
+    <string name="amaddontxt12">Bed Sheet LKR 200</string>
+    <string name="amaddonbut6">Remove</string>
+    <string name="amaddonbut7">Remove</string>
+    <string name="amaddonbut8">Remove</string>
+    <string name="amaddonbut9">Remove</string>
+    <string name="amaddontxt13">Extra charge : LKR 400.00</string>
+    <string name="amaddonbut10">Done</string>
+
+    <!--========================= Accom RoomReserved=================================-->
+
+    <string name="amReservedtxt1"> Time/Date</string>
+    <string name="amReservebut1">Back</string>
+    <string name="amReservedtxt2">Breakfast include-Deluxe Double or TwinRoom with Mountain View </string>
+    <string name="amReservedtxt3"> </string>
+    <string name="amReservedtxt4"> </string>
+    <string name="amReservebut2">prev</string>
+    <string name="amReservebut3">next</string>
+    <string name="amReservedtxt10"> Air Conditioning</string>
+    <string name="amReservedtxt11"> Flat-screen TV</string>
+    <string name="amReservedtxt12">Ensuite bathroom</string>
+    <string name="amReservedtxt13"> Free WiFi</string>
+    <string name="amReservedtxt14"> Garden view</string>
+    <string name="amReservedtxt15"> Breakfast in the room</string>
+    <string name="amReservedtxt5"> Room Price : LKR 22,193.47</string>
+    <string name="amReservedtxt6"> Add-ons price : LKR 400.00</string>
+    <string name="amReservedtxt7">Total : LKR 22,593.00 </string>
+    <string name="amReservedtxt8">Reserved </string>
+    <string name="amReservebut4">Cancel Reservation</string>
+    <string name="amReservebut5">Change Add-ons</string>
+    <string name="amReservebut6">Back to Home</string>
+
+    <!--========================= new indoor =================================-->
+    <string name="indoortext">Indoor</string>
+    <string name="indoorcb1"></string>
+    <string name="indoorcb2"></string>
+    <string name="indoorcb3"></string>
+    <string name="indoorcb4"></string>
+    <string name="indoorcb5"></string>
+    <string name="newIndBtn">Reserve</string>
+    <!--========================= new indoor config ===========================-->
+    <string name="configTxt1">The amount will be added to your final bill when checking out.
+        No additional charges are involved</string>
+    <string name="indoorSwitch1">Swimming Pool</string>
+    <string name="indoorSwitch2">Video Game Room</string>
+    <string name="indoorSwitch3">Game Room</string>
+    <string name="indoorSwitch4">Gym</string>
+    <string name="indoorSwitch5">Spa</string>
+
+    <string name="configTxt2"> If you do not wish to update, please confirm </string>
+    <string name="configTxt3"> Please note that each facility costs 750 /- </string>
+
+    <string name="configBtn1"> Update </string>
+    <string name="configBtn2"> Confirm </string>
+    <string name="configBtn3"> Clear </string>
+
+    <!--========================= new indoor config update ===========================-->
+    <string name="configupdatetxt1"> Toggle the facilities to update </string>
+    <string name="configupdatetxt2"> If you do not wish to update, please confirm </string>
+    <string name="updateSwitch1"> Swimming Pool </string>
+    <string name="updateSwitch2"> Video Game Room </string>
+    <string name="updateSwitch3"> Game Room </string>
+    <string name="updateSwitch4"> Gym </string>
+    <string name="updateSwitch5"> Spa </string>
+    <string name="updateBtn"> Done </string>
+
+    <!--========================= new indoor success ===========================-->
+    <string name="newSucTxt1">Reserved</string>
+    <string name="newSucTxt2">Show QR code below at access point</string>
+
+    <string name="newSucImg">scImg</string>
+    <string name="indoorSucBtn">Done</string>
+    <string name="newSucTxt3"></string>
+
+    <!--========================= new outdoor =================================-->
+    <string name="newOutdoorTxt">Outdoor</string>
+    <string name="outdoorcb1"></string>
+    <string name="outdoorcb2"></string>
+    <string name="outdoorcb3"></string>
+    <string name="outdoorcb4"></string>
+
+    <string name="newOutdoorBtn">Reserve</string>
+
+    <!--========================= new outdoor config ===========================-->
+    <string name="outdoorConfigTxt1">The amount will be added to your final bill when checking out.
+        No additional charges are involved</string>
+    <string name="outdoorConfigSwitch1">Cycling</string>
+    <string name="outdoorConfigSwitch2">Golf</string>
+    <string name="outdoorConfigSwitch3"> Hiking</string>
+    <string name="outdoorConfigSwitch4">Playground</string>
+
+    <string name="outdoorConfigTxt2"> If you do not wish to update, please confirm </string>
+    <string name="outdoorConfigTxt3"> Please note that each facility costs 750 /- </string>
+
+    <string name="outdoorConfigBtn1"> Update </string>
+    <string name="outdoorConfigBtn2"> Confirm </string>
+    <string name="outdoorConfigBtn3"> Clear </string>
+
+    <!--========================= new outdoor config update ===========================-->
+    <string name="outdoorUpdateTxt1"> Toggle the facilities to update </string>
+    <string name="outdoorUpdateTxt2"> If you do not wish to update, please confirm </string>
+    <string name="outdoorUpdateSwitch1"> Cycling </string>
+    <string name="outdoorUpdateSwitch2"> Golf </string>
+    <string name="outdoorUpdateSwitch3"> Hiking </string>
+    <string name="outdoorUpdateSwitch4"> Playground </string>
+
+    <string name="outdoorUpdateBtn"> Done </string>
+
+    <!--========================= new outdoor success ===========================-->
+    <string name="outdoorSucTxt1">Reserved</string>
+    <string name="outdoorSucTxt2">Show QR code below at access point</string>
+
+    <string name="outdoorSucImg">scImg</string>
+    <string name="outScuBtn">Done</string>
+    <string name="outdoorSucTxt3"></string>
+
+</resources>
