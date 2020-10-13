@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".outdoorSuccess"></activity>
+        <activity android:name=".roomSuccess"></activity>
+        <activity android:name=".roomUpdate" />
+        <activity android:name=".roomConfig" />
+        <activity android:name=".newChooseRoom" />
+        <activity android:name=".outdoorSuccess" />
         <activity android:name=".outdoorConfigUpdate" />
         <activity android:name=".ountdoorConfig" />
         <activity android:name=".newOutdoor" />

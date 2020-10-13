@@ -471,4 +471,65 @@
     <string name="outScuBtn">Done</string>
     <string name="outdoorSucTxt3"></string>
 
+
+    <!--========================= Accom choose room =================================-->
+
+    <string name="chooseRoomTxt1"> Choose a Room </string>
+    <string name="Room1Txt"> Breakfast include-Deluxe Double or TwinRoom with Mountain View
+                             1 bed extra-large double bed
+                             Flat-screen TV
+                             LKR 22,000.00   </string>
+    <string name="Room2Txt"> Breakfast include -Super Deluxe Double Room with Mountain view
+                             1 Bed extra-large double bed
+                             LKR 26,000.00</string>
+    <string name="Room3Txt"> Breakfast include -Deluxe Single Room with awesome Mountain view
+                             2 bed extra-large double bed
+                             LKR 21,000.00</string>
+    <string name="Room4Txt"> Breakfast include -Super Deluxe Double Bed Room with city view
+                             2 bed extra-large double bed
+                             LKR 25,000.00</string>
+
+    <string name="chooseRoomCb1"></string>
+    <string name="chooseRoomCb2"></string>
+    <string name="chooseRoomCb3"></string>
+    <string name="chooseRoomCb4"></string>
+
+    <string name="ReserveBtn"> Reserve </string>
+
+
+    <!--========================= Accom config =================================-->
+
+
+    <string name="Destxt1"> The amount will be added to your final bill when checking out.
+        No additional charges are involved</string>
+    <string name="roomConfigS1"> Room 1 </string>
+    <string name="roomConfigS2"> Room 2 </string>
+    <string name="roomConfigS3"> Room 3 </string>
+    <string name="roomConfigS4"> Room 4 </string>
+
+    <string name="confirmationtxt"> If you wish to add changes to the reservation click Update button
+                                    If you wish to continue click the confirm button</string>
+
+    <string name="updateroomconfigbtn">Update</string>
+    <string name="confirmroomconfigbtn">Confirm</string>
+    <string name="clearroomconfigbtn">Clear</string>
+
+    <!--========================= Accom config =================================-->
+
+    <string name="roomUptxt1"> Update Reservations</string>
+
+    <string name="roomUpS1"> Room 1 </string>
+    <string name="roomUpS2"> Room 2 </string>
+    <string name="roomUpS3"> Room 3 </string>
+    <string name="roomUpS4"> Room 4 </string>
+
+    <string name="roomUpbtn1">Update</string>
+
+
+    <!--========================= Accom sucess=================================-->
+
+    <string name="roomSucMsg"> Rooms Reserved \n\n</string>
+    <string name="roomTotMsg"></string>
+
+    <string name="roomDonebtn">Done</string>
 </resources>

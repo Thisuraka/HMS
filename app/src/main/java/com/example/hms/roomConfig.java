@@ -21,36 +21,36 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
-public class configDash extends AppCompatActivity {
+public class roomConfig extends AppCompatActivity {
 
     DatabaseReference dbRef;
     Button update, confirm, clear;
     String sessionID, source, test;
-    Switch switch1, switch2, switch3, switch4, switch5, switch6;
+    Switch roomConfigS1, roomConfigS2, roomConfigS3, roomConfigS4;
     Integer tot = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_config_dash);
+        setContentView(R.layout.activity_room_config);
 
-        confirm = findViewById(R.id.confDashBtn2);
-            update = findViewById(R.id.confDashBtn1);
-            clear = findViewById(R.id.confDashBtn3);
 
-            switch1 = findViewById(R.id.switch2);
-            switch2 = findViewById(R.id.switch2);
-            switch3 = findViewById(R.id.switch3);
-            switch4 = findViewById(R.id.switch4);
-            switch5 = findViewById(R.id.switch5);
-            switch6 = findViewById(R.id.switch6);
+        confirm = findViewById(R.id.confirmroomconfigbtn);
+        update = findViewById(R.id.updateroomconfigbtn);
+        clear = findViewById(R.id.clearroomconfigbtn);
 
-            sessionID = getIntent().getStringExtra("SESSION_ID");
-            source = getIntent().getStringExtra("SOURCE");
+        roomConfigS1 = findViewById(R.id.roomConfigS1);
+        roomConfigS2 = findViewById(R.id.roomConfigS2);
+        roomConfigS3 = findViewById(R.id.roomConfigS3);
+        roomConfigS4 = findViewById(R.id.roomConfigS4);
+
+
+        sessionID = getIntent().getStringExtra("SESSION_ID");
+        source = getIntent().getStringExtra("SOURCE");
         Log.i("sessionID", sessionID);
         Log.i("source", source);
 
-            DatabaseReference readRef = FirebaseDatabase.getInstance().getReference().child(source).child(sessionID);
+        DatabaseReference readRef = FirebaseDatabase.getInstance().getReference().child(source).child(sessionID);
         readRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -66,30 +66,24 @@ public class configDash extends AppCompatActivity {
 //                        System.out.println(al.get(i));
                         String b = al.get(i);
                         switch (b) {
-                            case "Item1":
-                                switch1.setChecked(true);
+                            case "Room1":
+                                roomConfigS1.setChecked(true);
                                 tot = tot + 1;
                                 break;
-                            case "Item2":
-                                switch2.setChecked(true);
+                            case "Room2":
+                                roomConfigS2.setChecked(true);
                                 tot = tot + 1;
                                 break;
-                            case "Item3":
-                                switch3.setChecked(true);
+                            case "Room3":
+                                roomConfigS3.setChecked(true);
                                 tot = tot + 1;
                                 break;
-                            case "Item4":
-                                switch4.setChecked(true);
+                            case "Room4":
+                                roomConfigS4.setChecked(true);
                                 tot = tot + 1;
                                 break;
-                            case "Item5":
-                                switch5.setChecked(true);
-                                tot = tot + 1;
-                                break;
-                            case "Item6":
-                                switch6.setChecked(true);
-                                tot = tot + 1;
-                                break;
+
+
                         }
                     }
                     Toast.makeText(getApplicationContext(), "Please Confirm", Toast.LENGTH_SHORT).show();
@@ -110,7 +104,7 @@ public class configDash extends AppCompatActivity {
             public void onClick(View view) {
                 dbRef = FirebaseDatabase.getInstance().getReference().child(source).child(sessionID);
                 dbRef.removeValue();
-                startActivity(new Intent(configDash.this, mainPage.class));
+                startActivity(new Intent(roomConfig.this, mainPage.class));
             }
         });
 
@@ -118,7 +112,7 @@ public class configDash extends AppCompatActivity {
         update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(), updateMenu.class);
+                Intent intent = new Intent(getBaseContext(), roomUpdate.class);
                 intent.putExtra("SESSION_ID", sessionID);
                 intent.putExtra("SOURCE", source);
                 startActivity(intent);
@@ -128,7 +122,7 @@ public class configDash extends AppCompatActivity {
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(), orderSuccess.class);
+                Intent intent = new Intent(getBaseContext(), roomSuccess.class);
                 intent.putExtra("TOT", tot);
                 intent.putExtra("SOURCE", source);
                 startActivity(intent);

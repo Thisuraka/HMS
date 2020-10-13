@@ -75,23 +75,6 @@
         tools:text="@string/confTxtBx" />
 
     <Switch
-        android:id="@+id/switch1"
-        android:layout_width="319dp"
-        android:layout_height="57dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:text="Item 1"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.196"
-        tools:text="@string/switch1" />
-
-    <Switch
         android:id="@+id/switch2"
         android:layout_width="319dp"
         android:layout_height="57dp"
@@ -205,5 +188,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.93"
         tools:text="@string/confDashBtn3" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="319dp"
+        android:layout_height="57dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Item 1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201"
+        tools:text="@string/switch1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,12 +30,16 @@ public class mainPage extends AppCompatActivity {
                     case R.id.otherfacImg:
                         intent.setClass(mainPage.this, facilityMain.class);
                         break;
+                    case R.id.accomImg:
+                        intent.setClass(mainPage.this, newChooseRoom.class);
+                        break;
                     default:
                         break;
                 }
                 startActivity(intent);
             }
         };
+        imageView1.setOnClickListener(listener);
         imageView2.setOnClickListener(listener);
         imageView3.setOnClickListener(listener);
 

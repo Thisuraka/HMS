@@ -12,10 +12,10 @@ import android.widget.Toast;
 
 import java.util.Calendar;
 
-public class indoorSuccess extends AppCompatActivity {
+public class roomSuccess extends AppCompatActivity {
 
-    Button indoorSucBtn;
-    TextView newSucTxt3;
+    Button roomDonebtn;
+    TextView roomTotMsg;
     Integer tot;
     String source;
 
@@ -24,36 +24,36 @@ public class indoorSuccess extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_indoor_success);
+        setContentView(R.layout.activity_room_success);
 
         tot = new Integer(0);
 
-        newSucTxt3 = findViewById(R.id.newSucTxt3);
+        roomTotMsg = findViewById(R.id.roomTotMsg);
         source = getIntent().getStringExtra("SOURCE");
         tot = getIntent().getIntExtra("TOT", tot);
 
-        indoorSucBtn = findViewById(R.id.indoorSucBtn);
+        roomDonebtn = findViewById(R.id.roomDonebtn);
 
-        if (currentHour >= 21 && currentHour <= 22 && source.equals("Video Game Room")) {
+        if (currentHour >= 21 && currentHour <= 22 && source.equals("Room1")) {
             tot = tot * 750;
             if (tot > 2250) {
                 Toast.makeText(getApplicationContext(), "Eligible for a discount.", Toast.LENGTH_LONG).show();
             }
-        } else if (currentHour >= 16 && currentHour <= 18 && source.equals("Game Room")) {
+        } else if (currentHour >= 16 && currentHour <= 18 && source.equals("Room2")) {
             tot = tot * 750 - 200;
             Toast.makeText(getApplicationContext(), "Eligible for a discount", Toast.LENGTH_LONG).show();
-            newSucTxt3.setText("Your Total for current facility cost is :  " + tot + ". " + "You have received a discount");
+            roomTotMsg.setText("Your Total for current Room Reservation cost is :  " + tot + ". " + "You have received a discount");
         } else {
             tot = tot * 750;
             Log.i("tot", String.valueOf(tot));
-            newSucTxt3.setText("Your Total for current facility cost is :  " + tot);
+            roomTotMsg.setText("Your Total for current facility cost is :  " + tot);
         }
 
         //button to navigate back to main
-        indoorSucBtn.setOnClickListener(new View.OnClickListener() {
+        roomDonebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(indoorSuccess.this, mainPage.class));
+                startActivity(new Intent(roomSuccess.this, mainPage.class));
             }
         });
 
