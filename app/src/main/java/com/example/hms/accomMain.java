@@ -14,12 +14,12 @@ public class accomMain extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accom_main);
 
-        Button btn = (Button)findViewById(R.id.ambut1);
+        Button btn = (Button)findViewById(R.id.accomMainbtn1);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(accomMain.this, accomChooseARoom.class));
+                startActivity(new Intent(accomMain.this, roomReserve.class));
             }
         });
     }

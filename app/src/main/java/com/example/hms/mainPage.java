@@ -31,7 +31,7 @@ public class mainPage extends AppCompatActivity {
                         intent.setClass(mainPage.this, facilityMain.class);
                         break;
                     case R.id.accomImg:
-                        intent.setClass(mainPage.this, newChooseRoom.class);
+                        intent.setClass(mainPage.this, accomMain.class);
                         break;
                     default:
                         break;

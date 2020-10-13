@@ -333,29 +333,29 @@
     <string name="roomrespagetxt7"> Free WiFi</string>
     <string name="roomrespagetxt8">Breakfast in the room</string>
     <string name="roomrespagebtn2">See next Room</string>
-    <string name="roomrespagetxt2">Room Price : LKR 30,000.00</string>
+    <string name="roomrespagetxt2">Room Price : LKR 25,000.00</string>
     <string name="roomrespagetxtimag"></string>
 
     <!--========================= Accom Reserve page 2=================================-->
 
-    <string name="roomrespage2btn1">Back</string>
+    <string name="buttonbackbcak">Back</string>
     <string name="roomrespagetxtimag2"></string>
     <string name="roomrespage2txt1"> Breakfast include -Super Deluxe Double Room with Mountain view</string>
-    <string name="roomrespage2txt2"> Room Price : LKR 26,000.00 \n\n\n BED :1 extra-large double bed\n\n
+    <string name="roomrespage2txt2"> Room Price : LKR 25,000.00 \n\n\n BED :1 extra-large double bed\n\n
                                         Air Conditioning \n\n
                                         Ensuite bathroom\n\n
                                         Garden view</string>
     <string name="roomrespage2txt3">  Flat-screen TV\n\n
                                         Free WiFi \n\n
                                         Breakfast in the room</string>
-    <string name="roomrespage2btn2">See Next Room</string>
+    <string name="button1111">See Next Room</string>
 
     <!--========================= Accom Reserve page 3=================================-->
 
     <string name="roomrespage3btn1">Back</string>
     <string name="roomrespage3txtimag1"></string>
     <string name="roomrespage3txt1">  Breakfast include -Deluxe Single Room with awesome Mountain view</string>
-    <string name="roomrespage3txt3"> Room Price : LKR 35,000.00 \n\n\n BED :1 extra-large double bed\n\n
+    <string name="roomrespage3txt3"> Room Price : LKR 25,000.00 \n\n\n BED :1 extra-large double bed\n\n
                                         Air Conditioning \n\n
                                         Ensuite bathroom\n\n
                                         Garden view</string>
@@ -517,13 +517,13 @@
     <string name="Room1Txt"> Breakfast include-Deluxe Double or TwinRoom with Mountain View \n
                              beds -1 extra-large double bed \n
                              Flat-screen TV \n
-                             LKR 30,000.00   </string>
+                             LKR 25,000.00   </string>
     <string name="Room2Txt"> Breakfast include -Super Deluxe Double Room with Mountain view \n
                              Beds - 1 extra-large double bed \n
-                             LKR 26,000.00</string>
+                             LKR 25,000.00</string>
     <string name="Room3Txt"> Breakfast include -Deluxe Single Room with awesome Mountain view \n
                              Beds - 2 extra-large double bed \n
-                             LKR 35,000.00</string>
+                             LKR 25,000.00</string>
     <string name="Room4Txt"> Breakfast include -Super Deluxe Double Bed Room with city view \n
                              Beds - 2 extra-large double bed \n
                              LKR 25,000.00</string>

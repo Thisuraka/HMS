@@ -7,26 +7,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class roomReserve extends AppCompatActivity {
+public class roomreservemiddle extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_room_reserve);
+        setContentView(R.layout.activity_roomreservemiddle);
 
-        Button btn1 = (Button)findViewById(R.id.roomrespagebtn1);
+        Button btn1 = (Button)findViewById(R.id.roomrespage3btn1);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(roomReserve.this,accomMain.class));
+                startActivity(new Intent( roomreservemiddle.this,roomReserve.class));
             }
         });
 
-        Button btn2 = (Button)findViewById(R.id.roomrespagebtn2);
+        Button btn2 = (Button)findViewById(R.id.roomrespage3btn2);
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(roomReserve.this, roomreservemiddle.class));
+                startActivity(new Intent( roomreservemiddle.this, roomreserve4.class));
             }
         });
     }

@@ -35,16 +35,16 @@ public class roomSuccess extends AppCompatActivity {
         roomDonebtn = findViewById(R.id.roomDonebtn);
 
         if (currentHour >= 21 && currentHour <= 22 && source.equals("Room1")) {
-            tot = tot * 750;
-            if (tot > 2250) {
+            tot = tot * 25000;
+            if (tot > 50000) {
                 Toast.makeText(getApplicationContext(), "Eligible for a discount.", Toast.LENGTH_LONG).show();
             }
         } else if (currentHour >= 16 && currentHour <= 18 && source.equals("Room2")) {
-            tot = tot * 750 - 200;
+            tot = tot * 25000 - 5000;
             Toast.makeText(getApplicationContext(), "Eligible for a discount", Toast.LENGTH_LONG).show();
             roomTotMsg.setText("Your Total for current Room Reservation cost is :  " + tot + ". " + "You have received a discount");
         } else {
-            tot = tot * 750;
+            tot = tot * 25000;
             Log.i("tot", String.valueOf(tot));
             roomTotMsg.setText("Your Total for current facility cost is :  " + tot);
         }

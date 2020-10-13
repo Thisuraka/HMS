@@ -5,30 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/accombackgroundneww"
-    tools:context=".roomreserve2">
+    tools:context=".roomreservemiddle">
 
     <Button
-        android:id="@+id/roomrespage2btn1"
+        android:id="@+id/roomrespage3btn1"
         android:layout_width="121dp"
         android:layout_height="57dp"
         android:background="@android:color/holo_orange_light"
-        android:text="@string/roomrespage2btn1"
+        android:text="@string/roomrespage3btn1"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
-        android:textStyle="bold"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.048" />
+        app:layout_constraintVertical_bias="0.032" />
 
     <TextView
-        android:id="@+id/roomrespage2txt1"
-        android:layout_width="478dp"
-        android:layout_height="103dp"
+        android:id="@+id/roomrespage3txt1"
+        android:layout_width="632dp"
+        android:layout_height="139dp"
         android:fontFamily="@font/leckerli_one"
-        android:text="@string/roomrespage2txt1"
+        android:text="@string/roomrespage3txt1"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="36sp"
@@ -36,64 +36,62 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136" />
+        app:layout_constraintVertical_bias="0.138" />
 
     <TextView
-        android:id="@+id/roomrespage2txt2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/roomrespage2txt2"
-        android:textColor="#070707"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.089"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.818" />
-
-    <TextView
-        android:id="@+id/roomrespage2txt3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/roomrespage2txt3"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.947"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777" />
-
-    <TextView
-        android:id="@+id/roomrespagetxtimag2"
+        android:id="@+id/roomrespage3txtimag1"
         android:layout_width="660dp"
         android:layout_height="430dp"
-        android:background="@drawable/mountain_view_2"
-        android:text="@string/roomrespagetxtimag2"
+        android:background="@drawable/mountain_view_3"
+        android:text="@string/roomrespage3txtimag1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.339" />
+        app:layout_constraintVertical_bias="0.377" />
 
-    <Button
-        android:id="@+id/roomrespage2btn2"
-        android:layout_width="235dp"
-        android:layout_height="69dp"
-        android:background="@android:color/holo_orange_light"
-        android:text="@string/roomrespage2btn2"
-        android:textColor="#FFFFFF"
+    <TextView
+        android:id="@+id/roomrespage3txt3"
+        android:layout_width="340dp"
+        android:layout_height="290dp"
+        android:text="@string/roomrespage3txt3"
+        android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.959" />
+        app:layout_constraintVertical_bias="0.81" />
+
+    <TextView
+        android:id="@+id/roomrespage3txt4"
+        android:layout_width="257dp"
+        android:layout_height="156dp"
+        android:text="@string/roomrespage3txt4"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <Button
+        android:id="@+id/roomrespage3btn2"
+        android:layout_width="235dp"
+        android:layout_height="69dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/roomrespage3btn2"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
 </androidx.constraintlayout.widget.ConstraintLayout>

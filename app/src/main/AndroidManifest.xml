@@ -9,9 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".roomreserve4"></activity>
-        <activity android:name=".roomreserve3" />
-        <activity android:name=".roomreserve2" />
+        <activity android:name=".roomreservemiddle"></activity>
+        <activity android:name=".roomreserve4" />
         <activity android:name=".roomSuccess" />
         <activity android:name=".roomUpdate" />
         <activity android:name=".roomConfig" />
@@ -25,10 +24,7 @@
         <activity android:name=".indoorConfig" />
         <activity android:name=".new_indoor_view" />
         <activity android:name=".facilityMain" />
-        <activity android:name=".roomReserved" />
-        <activity android:name=".addOns" />
         <activity android:name=".roomReserve" />
-        <activity android:name=".accomChooseARoom" />
         <activity android:name=".accomMain" />
         <activity android:name=".addItem" />
         <activity android:name=".updateMenu" />
