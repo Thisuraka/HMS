@@ -288,20 +288,19 @@
 
     <!--========================= Accom Main Page =================================-->
 
-    <string name="amTxt1"> Room Features </string>
-    <string name="amTxt2"> Air conditioning </string>
-    <string name="amTxt3"> Private Balcony </string>
-    <string name="amTxt4"> Flat screen TV </string>
-    <string name="amTxt5"> Room types </string>
-    <string name="amTxt6"> Non-smoking rooms </string>
-    <string name="ambut1"> Choose a room </string>
-    <string name="amTxt7"> Good to know </string>
-    <string name="amTxt8"> Hotel view : Mountain view/Great view</string>
-    <string name="amTxt9"> Languages spoken : English/Sinhala </string>
-    <string name="amTxt10"> Time/Date </string>
-    <string name="amTxt11"> Desk </string>
-    <string name="amTxt12"> Room service </string>
-    <string name="amTxt13"> Bath/shower</string>
+    <string name="accomMaintxt1"> Room Features </string>
+    <string name="accomMaintxt2"> Air conditioning </string>
+    <string name="accomMaintxt3"> Private Balcony </string>
+    <string name="accomMaintxt4"> Flat screen TV </string>
+    <string name="accomMaintxt8"> Room types </string>
+    <string name="accomMaintxt9"> Non-smoking rooms </string>
+    <string name="accomMainbtn1"> Choose a room </string>
+    <string name="accomMaintxt10"> Good to know </string>
+    <string name="accomMaintxt11"> Hotel view : Mountain view/City view</string>
+    <string name="accomMaintxt13"> Languages spoken : English/Sinhala </string>
+    <string name="accomMaintxt5"> Desk </string>
+    <string name="accomMaintxt6"> Room service </string>
+    <string name="accomMaintxt7"> Bath/shower</string>
 
     <!--========================= Accom Choose a room =================================-->
 
@@ -323,22 +322,62 @@
 
     <!--========================= Accom Reserve =================================-->
 
-    <string name="amservetxt1"> Time/Date</string>
-    <string name="amrbut1">Back</string>
-    <string name="amreservetxt2">Breakfast include-Deluxe Double or TwinRoom with Mountain View </string>
-    <string name="amreservetxt3"> </string>
-    <string name="amrbut2">prev</string>
-    <string name="amrbut3">next</string>
-    <string name="amreservetxt4"> BED :1 extra-large double bed</string>
-    <string name="amreservetxt5"> Air Conditioning</string>
-    <string name="amreservetxt6">Ensuite bathroom </string>
-    <string name="amreservetxt7"> Garden view</string>
-    <string name="amreservetxt8"> Flat-screen TV</string>
-    <string name="amreservetxt9"> Free WiFi</string>
-    <string name="amreservetxt10">Breakfast in the room</string>
-    <string name="amrbut4">Reserve</string>
-    <string name="amrbut5">See Add-ons</string>
-    <string name="amreservetxt11">Room Price : LKR 22,193.47</string>
+
+    <string name="roomrespagebtn1">Back</string>
+    <string name="roomrespagetxt1">Breakfast include-Deluxe Double/TwinRoom with Mountain View </string>
+    <string name="roomrespagetxt3"> BED :1 extra-large double bed</string>
+    <string name="roomrespagetxt4"> Air Conditioning</string>
+    <string name="roomrespagetxt9">Ensuite bathroom </string>
+    <string name="roomrespagetxt5"> Garden view</string>
+    <string name="roomrespagetxt6"> Flat-screen TV</string>
+    <string name="roomrespagetxt7"> Free WiFi</string>
+    <string name="roomrespagetxt8">Breakfast in the room</string>
+    <string name="roomrespagebtn2">See next Room</string>
+    <string name="roomrespagetxt2">Room Price : LKR 30,000.00</string>
+    <string name="roomrespagetxtimag"></string>
+
+    <!--========================= Accom Reserve page 2=================================-->
+
+    <string name="roomrespage2btn1">Back</string>
+    <string name="roomrespagetxtimag2"></string>
+    <string name="roomrespage2txt1"> Breakfast include -Super Deluxe Double Room with Mountain view</string>
+    <string name="roomrespage2txt2"> Room Price : LKR 26,000.00 \n\n\n BED :1 extra-large double bed\n\n
+                                        Air Conditioning \n\n
+                                        Ensuite bathroom\n\n
+                                        Garden view</string>
+    <string name="roomrespage2txt3">  Flat-screen TV\n\n
+                                        Free WiFi \n\n
+                                        Breakfast in the room</string>
+    <string name="roomrespage2btn2">See Next Room</string>
+
+    <!--========================= Accom Reserve page 3=================================-->
+
+    <string name="roomrespage3btn1">Back</string>
+    <string name="roomrespage3txtimag1"></string>
+    <string name="roomrespage3txt1">  Breakfast include -Deluxe Single Room with awesome Mountain view</string>
+    <string name="roomrespage3txt3"> Room Price : LKR 35,000.00 \n\n\n BED :1 extra-large double bed\n\n
+                                        Air Conditioning \n\n
+                                        Ensuite bathroom\n\n
+                                        Garden view</string>
+    <string name="roomrespage3txt4">  Flat-screen TV\n\n
+                                        Free WiFi \n\n
+                                        Breakfast in the room</string>
+    <string name="roomrespage3btn2">See Next Room</string>
+
+    <!--========================= Accom Reserve page 4=================================-->
+
+    <string name="roomrespage4btn1">Back</string>
+    <string name="roomrespage4txtimag2"></string>
+    <string name="roomrespage4txt1">  Breakfast include -Super Deluxe Double Bed Room with city view</string>
+    <string name="roomrespage4txt2"> Room Price : LKR 25,000.00 \n\n\n BED :1 extra-large double bed\n\n
+                                        Air Conditioning \n\n
+                                        Ensuite bathroom\n\n
+                                        Garden view</string>
+    <string name="roomrespage4txt3">  Flat-screen TV\n\n
+                                        Free WiFi \n\n
+                                        Breakfast in the room</string>
+    <string name="roomrespage4btn2">See Next Room</string>
+
 
     <!--========================= Accom Add-ons=================================-->
     <string name="amaddontxt1"> Time/Date</string>
@@ -475,18 +514,18 @@
     <!--========================= Accom choose room =================================-->
 
     <string name="chooseRoomTxt1"> Choose a Room </string>
-    <string name="Room1Txt"> Breakfast include-Deluxe Double or TwinRoom with Mountain View
-                             1 bed extra-large double bed
-                             Flat-screen TV
-                             LKR 22,000.00   </string>
-    <string name="Room2Txt"> Breakfast include -Super Deluxe Double Room with Mountain view
-                             1 Bed extra-large double bed
+    <string name="Room1Txt"> Breakfast include-Deluxe Double or TwinRoom with Mountain View \n
+                             beds -1 extra-large double bed \n
+                             Flat-screen TV \n
+                             LKR 30,000.00   </string>
+    <string name="Room2Txt"> Breakfast include -Super Deluxe Double Room with Mountain view \n
+                             Beds - 1 extra-large double bed \n
                              LKR 26,000.00</string>
-    <string name="Room3Txt"> Breakfast include -Deluxe Single Room with awesome Mountain view
-                             2 bed extra-large double bed
-                             LKR 21,000.00</string>
-    <string name="Room4Txt"> Breakfast include -Super Deluxe Double Bed Room with city view
-                             2 bed extra-large double bed
+    <string name="Room3Txt"> Breakfast include -Deluxe Single Room with awesome Mountain view \n
+                             Beds - 2 extra-large double bed \n
+                             LKR 35,000.00</string>
+    <string name="Room4Txt"> Breakfast include -Super Deluxe Double Bed Room with city view \n
+                             Beds - 2 extra-large double bed \n
                              LKR 25,000.00</string>
 
     <string name="chooseRoomCb1"></string>

@@ -4,17 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg3"
+    android:background="@drawable/accombackgroundneww"
     tools:context=".roomConfig">
 
     <TextView
         android:id="@+id/Destxt1"
-        android:layout_width="556dp"
-        android:layout_height="196dp"
+        android:layout_width="683dp"
+        android:layout_height="175dp"
+        android:fontFamily="@font/leckerli_one"
         android:text="@string/Destxt1"
+        android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="36sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
